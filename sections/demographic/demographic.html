@@ -1,0 +1,186 @@
+
+
+<style>
+    .data-demographic {
+        padding-top: 10px;
+    }
+    .data-demographic .headerDataPatient .imagePatient {
+        padding: 5px;
+        padding-bottom: 15px;        
+    }
+
+    .data-demographic .headerDataPatient img    
+    {
+        -webkit-box-shadow: 3px 6px 22px -7px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 6px 22px -7px rgba(0,0,0,0.75);
+        box-shadow: 3px 6px 22px -7px rgba(0,0,0,0.75);
+    }
+
+    .data-demographic .headerDataPatient .contentDataHeader {
+        color: #bbbbbb;
+    }
+
+    .data-demographic .titleName { font-size: 2.2em; width: 100%; }
+    .data-demographic .titleRecord { font-size: 1.3em; width: 100%; }
+    .data-demographic .titleNHS { font-size: 1.3em; width: 100%; }
+
+    .data-demographic .dataContactTitle {
+        padding: 10px 5px 5px 10px;
+        background-color: #eeeeee;
+        color: #3d8af7;
+        font-size: 18px;
+        font-size-adjust: 16px;
+    }
+
+    .data-demographic .dataContactBody {
+        padding-top: 15px;
+    }
+
+</style>
+<div id="contentDemographicData" class="data-demographic">
+  <div class="headerDataPatient col-xs-12">
+    <div class="imagePatient col-xs-7 col-md-2">
+        <img src="assets/images/userdemo.png" height="160"/>
+    </div>
+    <div class="contentDataHeader col-xs-5 col-md-10">
+        <label class="titleName hidden-xs">{{fullName}}</label>
+        <label class="titleRecord">Record number - {{patientDemographicData.recordId}}</label>
+        <label class="titleNHS">NHS number - {{patientDemographicData.nhsNumber}}</label>
+    </div>
+  </div>
+  <div class="contentDataPatient col-xs-12">
+    <div class="dataContactTitle">
+            <span><i class="fa fa-minus 2x"></i></span>
+            <label>PERSONAL DATA</label>
+    </div>
+    <div class="dataContactBody">
+        <div class="col-xs-4">
+            <div class="form-group">
+                <label>Name</label>
+                <label>Dave</label>
+            </div>
+            <div class="form-group">               
+                <label>Lastname</label>
+                <label>Springfield</label>
+            </div>
+            <div class="form-group">
+                <label>Birthname</label>
+                <label>Simpson</label>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="form-group">
+                <label>Gender</label>
+                <label>Dave</label>
+            </div>
+            <div class="form-group">               
+                <label>Academic title</label>
+                <label>Dr.</label>
+            </div>
+            <div class="form-group">
+                <label>Birthdate</label>
+                <label>20/01/1980</label>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="form-group">
+                <label>Email</label>
+                <label>dave@springfield.uk</label>
+            </div>
+            <div class="form-group">               
+                <label>Telephone 1</label>
+                <label>123456789</label>
+            </div>
+            <div class="form-group">
+                <label>Telephone 2</label>
+                <label></label>
+            </div>
+        </div>
+
+    </div>
+  </div>
+  <div class="contentDataPatient col-xs-12">
+    <div class="dataContactTitle">
+            <span><i class="fa fa-key"></i></span>
+            <label>DATA CONTACT</label>      
+    </div>
+    <div class="dataContactBody">
+        <div class="col-md-12">
+            <div class="form-group col-md-3">
+                <label class="titleField">Address</label>
+                <label class="dataField"></label>
+            </div>
+            <div class="form-group col-md-3">
+                <label>Postal code</label>
+                <label></label>
+            </div>
+            <div class="form-group col-md-3">
+                <label>Province</label>
+                <label></label>
+            </div>
+            <div class="form-group col-md-3">
+                <label>City</label>
+                <label></label>
+            </div>
+            <div class="form-group">
+                <label>Country</label>
+                <label></label>
+            </div>
+        </div>
+        
+        <div class="form-group col-md-3">
+            <label class="control-label">Marital data</label>
+            <label></label>
+        </div>
+        <div class="form-group col-md-3">
+            <label>Religion</label>
+            <label></label>
+        </div>
+        <div class="form-group col-md-3">
+            <label>Doc. type & Doc. number</label>
+            <label></label>
+        </div>
+        <div class="form-group col-md-3">
+            <label>Language</label>
+            <label></label>
+        </div>
+        <div class="form-group col-md-3">
+            <label class="control-label">Country of birth Birthplace</label>
+            <label></label>
+        </div>
+        <div class="form-group col-md-3">
+            <label class="control-label">Insurance</label>
+            <label>AXA</label>
+        </div>
+        <div class="form-group col-md-3">
+            <label class="control-label">Registered GP</label>
+            <div>
+                <label>123445</label><span><i class="fa fa-key"></i></span>
+            </div>
+        </div>
+        <div class="form-group col-md-3">
+            <label>Referred by</label>
+            <label></label>
+        </div>
+        <div class="form-group col-md-6">
+            <div>
+                <label>Next of kind data</label>&nbsp;<span><i class="fa fa-key"></i></span>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <span class="col-md-6">Smith, Carol</span><span class="col-md-3">123456789</span><span class="col-md-3">Wife</span>
+                    </li>
+                    <li>
+                        <span class="col-md-6">Sprinfield, James</span><span class="col-md-3">987654321</span><span class="col-md-3">Parent</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    
+
+</div>

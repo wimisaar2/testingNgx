@@ -1,0 +1,205 @@
+<style>
+	.customPadding { 
+		padding-left: 5px;
+		padding-right: 10px
+	}
+</style>
+
+<div class="overlay-title row tittleOverlayGeneric text-center">
+	<i class="fa fa-2x icon-anadirevolutivo iconTitleOverlayGeneric"></i>
+	<span>Medication Self Administration Assessment</span>
+</div>
+	
+<input type="hidden" name="formId" id="formId" value="medication_self_administration">
+
+<div id="medication_self_administration"> 
+		
+	<div class="questiongroup rowGeneric customPadding col-md-12" id="medication_self_administration_asse_crit">	
+		<fieldset class="questfieldset">
+			<legend class="questlegend">Assessment Criteria</legend>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly read aloud instructions for use on medication container</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancner" name="medication_self_administration_asse_crit_cancner">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[0].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancner_1',htmlName:'medication_self_administration_asse_crit_cancner_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancner_2',htmlName:'medication_self_administration_asse_crit_cancner_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancner_3',htmlName:'medication_self_administration_asse_crit_cancner_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly state what medication is for?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancof" name="medication_self_administration_asse_crit_cancof">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[1].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancof_1',htmlName:'medication_self_administration_asse_crit_cancof_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancof_2',htmlName:'medication_self_administration_asse_crit_cancof_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancof_3',htmlName:'medication_self_administration_asse_crit_cancof_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly state common-side effects of each medication?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancion" name="medication_self_administration_asse_crit_cancion">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[2].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancion_1',htmlName:'medication_self_administration_asse_crit_cancion_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancion_2',htmlName:'medication_self_administration_asse_crit_cancion_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancion_3',htmlName:'medication_self_administration_asse_crit_cancion_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly state what time medications are to be taken?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancken" name="medication_self_administration_asse_crit_cancken">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[3].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancken_1',htmlName:'medication_self_administration_asse_crit_cancken_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancken_2',htmlName:'medication_self_administration_asse_crit_cancken_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancken_3',htmlName:'medication_self_administration_asse_crit_cancken_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly state the proper dosage for each medication?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_canciontwo" name="medication_self_administration_asse_crit_canciontwo">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[4].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_canciontwo_1',htmlName:'medication_self_administration_asse_crit_canciontwo_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_canciontwo_2',htmlName:'medication_self_administration_asse_crit_canciontwo_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_canciontwo_3',htmlName:'medication_self_administration_asse_crit_canciontwo_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can demonstrate ability to open medication containers correctly?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_candly" name="medication_self_administration_asse_crit_candly">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[5].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_candly_1',htmlName:'medication_self_administration_asse_crit_candly_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_candly_2',htmlName:'medication_self_administration_asse_crit_candly_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_candly_3',htmlName:'medication_self_administration_asse_crit_candly_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly measure the appropiate amount of medication from the container?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_canpken" name="medication_self_administration_asse_crit_canpken">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[6].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_canpken_1',htmlName:'medication_self_administration_asse_crit_canpken_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_canpken_2',htmlName:'medication_self_administration_asse_crit_canpken_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_canpken_3',htmlName:'medication_self_administration_asse_crit_canpken_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly document self administration of medications?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_canken" name="medication_self_administration_asse_crit_canken">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[7].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_canken_1',htmlName:'medication_self_administration_asse_crit_canken_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_canken_2',htmlName:'medication_self_administration_asse_crit_canken_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_canken_3',htmlName:'medication_self_administration_asse_crit_canken_3',label:'Fully capable',score:3}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can demonstrate secure storage for medication kept in room?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancoom" name="medication_self_administration_asse_crit_cancoom">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[8].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancoom_1',htmlName:'medication_self_administration_asse_crit_cancoom_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancoom_2',htmlName:'medication_self_administration_asse_crit_cancoom_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancoom_3',htmlName:'medication_self_administration_asse_crit_cancoom_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_cancoom_4',htmlName:'medication_self_administration_asse_crit_cancoom_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly state situations warranting administration of PRN medications?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_canprn" name="medication_self_administration_asse_crit_canprn">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[9].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_canprn_1',htmlName:'medication_self_administration_asse_crit_canprn_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_canprn_2',htmlName:'medication_self_administration_asse_crit_canprn_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_canprn_3',htmlName:'medication_self_administration_asse_crit_canprn_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_canprn_4',htmlName:'medication_self_administration_asse_crit_canprn_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly document the administration of PRN medications?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_candrn" name="medication_self_administration_asse_crit_candrn">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[10].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_candrn_1',htmlName:'medication_self_administration_asse_crit_candrn_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_candrn_2',htmlName:'medication_self_administration_asse_crit_candrn_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_candrn_3',htmlName:'medication_self_administration_asse_crit_candrn_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_candrn_4',htmlName:'medication_self_administration_asse_crit_candrn_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can correctly administer eye drops or eye ointments according to proper procedure?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_canceye" name="medication_self_administration_asse_crit_canceye">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[11].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_canceye_1',htmlName:'medication_self_administration_asse_crit_canceye_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_canceye_2',htmlName:'medication_self_administration_asse_crit_canceye_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_canceye_3',htmlName:'medication_self_administration_asse_crit_canceye_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_canceye_4',htmlName:'medication_self_administration_asse_crit_canceye_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can apply topical ointments, creams, or transdermal patches according to proper procedure?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_canpatch" name="medication_self_administration_asse_crit_canpatch">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[12].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_canpatch_1',htmlName:'medication_self_administration_asse_crit_canpatch_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_canpatch_2',htmlName:'medication_self_administration_asse_crit_canpatch_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_canpatch_3',htmlName:'medication_self_administration_asse_crit_canpatch_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_canpatch_4',htmlName:'medication_self_administration_asse_crit_canpatch_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can administer ear drops according to proper procedure?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancear" name="medication_self_administration_asse_crit_cancear">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[13].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancear_1',htmlName:'medication_self_administration_asse_crit_cancear_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancear_2',htmlName:'medication_self_administration_asse_crit_cancear_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancear_3',htmlName:'medication_self_administration_asse_crit_cancear_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_cancear_4',htmlName:'medication_self_administration_asse_crit_cancear_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can administrate rectal suppositories with proper procedure?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancsup" name="medication_self_administration_asse_crit_cancsup">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[14].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancsup_1',htmlName:'medication_self_administration_asse_crit_cancsup_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancsup_2',htmlName:'medication_self_administration_asse_crit_cancsup_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancsup_3',htmlName:'medication_self_administration_asse_crit_cancsup_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_cancsup_4',htmlName:'medication_self_administration_asse_crit_cancsup_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can administer vaginal suppositories according to proper procedure?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancaa" name="medication_self_administration_asse_crit_cancaa">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[15].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancaa_1',htmlName:'medication_self_administration_asse_crit_cancaa_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancaa_2',htmlName:'medication_self_administration_asse_crit_cancaa_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancaa_3',htmlName:'medication_self_administration_asse_crit_cancaa_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_cancaa_4',htmlName:'medication_self_administration_asse_crit_cancaa_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can administer inhalant medications according to proper procedure?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancinh" name="medication_self_administration_asse_crit_cancinh">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[16].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancinh_1',htmlName:'medication_self_administration_asse_crit_cancinh_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancinh_2',htmlName:'medication_self_administration_asse_crit_cancinh_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancinh_3',htmlName:'medication_self_administration_asse_crit_cancinh_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_cancinh_4',htmlName:'medication_self_administration_asse_crit_cancinh_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+
+			<div class="rowGeneric customPadding col-md-6 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>Can demonstrate administration of subcutaneous injections?</label></div>
+				<div class="col-md-12" id="medication_self_administration_asse_crit_cancearr" name="medication_self_administration_asse_crit_cancearr">
+					<select class="form-control" ng-model="dataForm.groups[0].questions[17].value" ng-options="item.label for item in [{id:'1',htmlId:'medication_self_administration_asse_crit_cancearr_1',htmlName:'medication_self_administration_asse_crit_cancearr_1',label:'Unable',score:1},{id:'2',htmlId:'medication_self_administration_asse_crit_cancearr_2',htmlName:'medication_self_administration_asse_crit_cancearr_2',label:'Able with assist',score:2},{id:'3',htmlId:'medication_self_administration_asse_crit_cancearr_3',htmlName:'medication_self_administration_asse_crit_cancearr_3',label:'Fully capable',score:3},{id:'4',htmlId:'medication_self_administration_asse_crit_cancearr_4',htmlName:'medication_self_administration_asse_crit_cancearr_4',label:'Not applicable',score:4}] track by item.id">
+						<option value=""></option>
+					</select>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+		
+	<div class="questiongroup rowGeneric customPadding col-md-12" id="medication_self_administration_asseres">	
+		<fieldset class="questfieldset">
+			<legend class="questlegend">Assessment Results</legend>
+			<div class="col-md-12" id="medication_self_administration_asseres_ressa" name="medication_self_administration_asseres_ressa">
+				<div class="col-md-12">
+					<label>
+						<input class="radioCheckGeneric" type="checkbox" id="medication_self_administration_asseres_ressa" name="medication_self_administration_asseres_ressa" ng-model="dataForm.groups[1].questions[0].value">		<span>The resident is deemed able to safety self administer medications</span>
+					</label>
+				</div>
+			</div>
+			<div class="rowGeneric customPadding col-md-12 text-left">
+				<div class="customPadding col-md-12 questAlignLabel-left"><label>The resident is deemed unabled to safely self administer medications, for the following reasons:</label></div>
+				<div class="col-md-12" id="medication_self_administration_asseres_una" name="medication_self_administration_asseres_una">
+					<textarea class="form-control" id="medication_self_administration_asseres_una" name="medication_self_administration_asseres_una" ng-model="dataForm.groups[1].questions[1].value"></textarea>
+				</div>
+			</div>
+		</fieldset>
+	</div>
+</div>
+
+<div class="clearfix"></div>

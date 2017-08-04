@@ -1,0 +1,7366 @@
+/* mainApp.jsp */
+
+/* Titles and subtitles */
+
+.has-navbar-bottom .app-body {
+    padding-bottom: 50px;
+}
+
+.has-navbar-top .app-body {
+    padding-top: 57px;
+}
+
+.titleColorOverlay{
+	color: #007cc0;
+}
+
+.loaderIcon {
+	margin-top: 5em;
+	text-align: center;
+}
+
+.worklistSidebar {
+	background: white;
+}
+
+.noPadding{
+	padding: 0 !important;
+}
+
+.cellActionsUiGrid{
+	overflow: visible !important;
+}
+
+.rubiconBackgroundColor{
+	background-color: #F7FAFB;
+}
+
+.errorEmptyLabel{
+	color:red;	
+}
+
+.gridTable{
+	width: 100%;
+	height: 100%;
+}
+
+.exportTableHeaderUiGrid{
+	text-align:center;
+}
+
+.genericOverlayHeader{
+    top: 1.5em;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.scrollableGeneric{
+	height: auto;
+    top: 7em;
+    bottom: 5.5em;
+}
+
+.editableTreatment {
+	border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.genericOverlayFooter {
+	padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #F7F7F7;
+}
+
+.cursorPointer{
+	cursor:pointer;
+}
+.button-fixed-bottom{
+    min-height: 50px;
+    margin-bottom: 20px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: white;   
+    bottom: 2em;
+}
+.cursorNormal{
+	cursor:default!important;
+}
+
+.colorBlue	 	{ color: #007aff!important; }
+.colorOrchid	{ color: orchid; } 
+.colorGreen		{ color: green; } 
+.colorYellow	{ color: #fadd16; }
+.colorRed		{ color: #D91E18 !important; }
+.colorAqua		{ color: aqua; }
+.colorBlack		{ color: black; }
+.colorOrange	{ color: #FF8826; }
+ 
+.noSelectText{
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+}
+
+.questfieldset{
+	border: 1px solid #87C1FF;
+	border-radius: 3px;
+	padding: 1em;
+}
+
+.questlegend{
+	border-bottom: none;
+    width: auto;
+    padding: 0em 1em;
+    color: #007aff;
+    font-size: 18px;
+}
+
+.ckPadding{
+	padding-right: 1em;
+}
+
+.questNoResizeTextArea{
+	resize: none;
+}
+
+.paddingBottomBtnOverlay{
+	padding-bottom: 10px !important;
+}
+
+.questTitleTextArea{
+	padding-top: 1.5em;
+}
+
+.questAlignLabel{
+	text-align: right;
+}
+
+.fieldsetOverlay{
+	border: 1px solid gray;
+	padding: 1.5em;
+	margin: 0px;
+}
+
+.paddingLegend {
+	padding-left: 12px;
+}
+
+.paddingIconSurgPro{
+	padding: 0.5em 0.05em;
+}
+
+/*Se oculta la cruz de arriba a la derecha del overlay*/
+.overlay-dismiss{
+	display:none !important;
+}
+
+.alert-default {
+  background-color: #F7F7F7;
+  border-color: #D2D7D3;
+  color: #CB2B2B;
+}
+
+.alert-inferior{
+	position: fixed;
+    bottom: 56px;
+    margin-left: -5px;
+}
+
+.botones-abajo{
+	padding: 12px;
+    background-color: rgb(247, 247, 247);
+}
+
+.btn-down {
+	position: fixed;
+	width: 100%;
+    bottom: 1px;
+    background-color: rgb(247, 247, 247);
+    padding: 11px 0px 1px 0px;
+    margin:0px;
+}
+
+.alert-down {
+	position: fixed;
+    bottom: 49px;
+    margin-left: -5px;
+}
+
+.alert-default > i{
+	padding-right: 0.4em;
+}
+
+.elementListProcedure{
+	height: 2.8em;
+}
+
+.legendOverlay{
+	font-size: x-large;
+	border-bottom: 0;
+	width: 55%;
+	margin-bottom: 0;
+	color: black;
+	font-size: 1.15em;
+	font-weight: 700;
+}
+
+.mainNavbar {
+	background: #DFF1F3;
+}
+
+.navbarBottom {
+	height: 3em;
+}
+
+.iconTitleOverlay{
+	padding-right: 0.6em;
+}
+
+.tittleOverlay {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.btnRowsOverlaySlots {
+	padding-top: 2em;
+}
+
+.navbarMenuEch {
+	min-height: 3.5em;
+}
+
+.divDateSearchTit{
+	padding-left:0;
+}
+
+.divUserData {
+	min-height: 4em;
+	padding: 0;
+}
+
+.toggleMainSidebar {
+	min-height: 4em;
+	padding: 0;
+}
+
+.paddingTitleSearchDoctor{
+	margin-bottom: 4em !important;
+}
+
+.iToggleMainSidebar {
+	position: absolute;
+	top: 14px;
+	left: 15px;
+}
+
+.paddingDoseText{
+	padding-left: 11px;
+}
+
+.logoNavbar {
+	padding: 1em 0.5em 1em 0em;
+}
+
+.viewName {
+	float: left;
+	font-size: 1.1em;
+}
+
+.divGeneralView {
+	margin-left: 33.33333333%;
+}
+
+.divViewName {
+	padding-left: 0;
+}
+
+.hiddenProcessGeneralView{
+	display: none;
+}
+
+.displayNone{
+	display: none;
+}
+
+.cursorWait{
+	cursor: wait;
+}
+
+.noBorder{
+	border: none;
+}
+
+.marginTopRowProcess{
+	margin-top: 1em;
+}    
+
+.flagDiv {
+	float: left;
+	width: 50%;
+	padding: 0.1em 0.1em;
+}
+
+.imgFlag {
+	width: 25%;
+}
+
+.cke_button__notetype_label{ 
+	display: inline !important; 
+}
+
+.padBottomCkeditor{
+	margin-bottom: 0.8em !important;
+}
+
+.imgSmallToUpload{
+	/*width: 500px;*/
+	display:none;
+}
+
+.inputUploadFile{
+	padding:15px;
+}
+
+.showImgSmallToUpload{
+	display:inline;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.divGenericViewer{
+	height:100%;
+}
+
+.iframeGenericViewer{
+	height:100%;
+	width:99%;
+}
+
+.genericScrollableViewer{
+	padding: 2em 0em 2em 0em !important;
+}    
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.uploadFileText{
+	border-radius: 2px;	
+}
+
+.divServiceName {
+	font-size: 0.7em;
+	color: black;
+	top: 15px;
+	left: 43px;
+	position: absolute;
+	font-weight: bold;
+	height: 35px;
+}
+
+.divIconView {
+	height: 3em;
+	padding: 0 1em 0 0;
+}
+
+.spanSignature {
+	position: absolute;
+	top: -5px;
+	left: 43px;
+	font-weight: bold;
+}
+.spanSignatureUser {
+	font-size: 12px;
+}
+
+.navbarMenu {
+	text-align: center;
+	height: 3.5em;
+	padding: 0.8em 0 0 0;
+	font-weight: bold;
+}
+
+.imgContentViewIcon {
+	padding-right: 6px;
+	vertical-align: text-top;
+	width: 30px;
+	float: right;
+}
+
+.divDateSearch {
+	font-size: 14px;
+	color: black;
+	margin-top: -1px;
+	text-align: left;
+}
+
+.tableSearchPatient {
+	margin: 0;
+}
+
+.appBodyContentMain {
+	background-color: #DCEAEE;
+}
+
+.btnHome {
+	text-align: left;
+	height: 3.4em;
+	cursor: inherit;
+	padding: 0.6em 0em 0.6em 1em;
+}
+
+.btnHome > i{
+	cursor: pointer;
+}
+
+.btnSettings {
+	text-align: left;
+	height: 3.4em;
+	cursor: inherit;
+	padding: 0.6em 0em 0.6em 1em;
+}
+
+.btnSearch {
+	text-align: left;
+	height: 3.4em;
+	cursor: inherit;
+	font-size: 1.1em;
+	padding: 0.7em 0em 0.6em 0em;
+}
+
+.btnSearchWorklist {
+    text-align: left;
+    height: 3.4em;
+    cursor: inherit;
+    font-size: 1.1em;
+    padding: 0.7em 0em 0.6em 1em;
+    cursor: pointer;
+}
+
+.btnSearch > i {
+	cursor: pointer;
+}
+
+.iBinoculars {
+	font-size: 1.5em;
+}
+
+.iConfiguration {
+	font-size: 2em !important;
+	padding-bottom: 0.3em;
+}
+
+.btnDropdownToggle {
+	width: 20%;
+	margin-left: 35% !important;
+	margin-right: 45%;
+	text-align: center;
+	padding: 0;
+}
+
+.settingMenu {
+	top: inherit;
+	bottom: 100%;
+	left: 35%;
+	right: 45%;
+	text-align: center;
+}
+
+.alignLeft{
+	text-align: left !important; 
+}
+
+.tittleResSearchPatient {
+	text-align: center;
+}
+
+.scrollableSearchPatient {
+	padding: 2em 0em 2em 0em;
+	height: 90%;
+}
+
+.positionSearchPatient {
+	position: initial;
+}
+
+.iconTittleSearchPatient {
+	padding-right: 0.5em;
+}
+
+.resultEmptySearchPatient {
+	padding-bottom: 1em;
+	font-weight: bold;
+}
+
+.msgResultSearchPatient {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	padding: 0.4em;
+	font-size: 0.9em;
+}
+
+.displayResEmptySP {
+	display: none;
+}
+
+.overlayTitleSearchPatient {
+	padding-bottom: 0.5em;
+	font-weight: bold;
+}
+
+.textSpanOverlaySearchPatient {
+	padding-top: 0.4em;
+	font-weight: bold;
+}
+
+.rowOverlayPatientSearch {
+	padding-bottom: 1em;
+}
+
+.searchPatientSelected {
+	cursor: pointer;
+}
+
+.searchPatientSelected:hover {
+	cursor: pointer;
+	background-color: #F7F7F7;
+}
+
+.groupOverlaySearchPatient {
+	padding-top: 0.2em;
+	padding-bottom: 0.6em;
+}
+
+.elementDropdownMenu {
+	cursor: pointer;
+}
+
+.btnPowerOff {
+	text-align: right;
+	height: 3.4em;
+	cursor: inherit;
+	padding: 0.6em 1em 0.6em 0em;
+}
+
+.btnPowerOff > i{
+	cursor: pointer;
+}
+
+.btn-group.open .dropdown-toggle {
+	-webkit-box-shadow: inset 0 0px 0px white;
+	box-shadow: inset 0 0px 0px white;
+}
+
+.btn-default.active, .btn-default:active, .btn-default:focus, .open>.dropdown-toggle.btn-default
+	{
+	background-color: #F7F7F7;
+}
+
+/** Config **/
+.configTittle {
+	height: 3.6em;
+	padding-top: 1em;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.configContent {
+	height: 100%;
+	padding-top: 4.1em;
+	padding-bottom: 3.6em;
+	background-color: #F7FAFB;
+}
+
+.boxConfigEch {
+	padding: 2em 2em 0em 2em;
+}
+
+.tittleBoxConfig {
+	width: 100%;
+	padding: 0.3em !important;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #DEF0F2 !important;
+}
+
+.textTittleBoxConfig {
+	padding-left: 0.5em;
+	color: #007aff;
+}
+
+.textElementBoxConfig {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 0.5em;
+}
+
+.btnSaveBoxConfig {
+	margin-top: 1.5em;
+}
+
+.divInputBoxConfig {
+	padding-bottom: 1em;
+}
+
+.divOkChange {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1em;
+	color: #26A65B;
+}
+
+.divWarningChange {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1em;
+	color: #F39C12;
+}
+
+.divErrorChange {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1em;
+	color: #F22613;
+}
+
+.infoChangePass {
+	color: #007aff;
+	text-align: center;
+	padding-bottom: 1em;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+.divUserConfig {
+	color: black;
+	font-weight: bold;
+	padding: 1em;
+}
+
+.iconUserNameConfig {
+	padding-right: 0.5em;
+	font-size: 1.5em;
+}
+
+.textUserNameConfig {
+	color: #007aff;
+}
+
+/** Sidebar **/
+.personalName {
+	line-height: 23px;
+	font-size: 22px;
+	padding-top: 5px;
+	background: #f7f7f7;
+	color: #007aff;
+}
+
+.btnMenu {
+	padding-left: 15px;
+}
+
+.mainSidebar {
+	background: white;
+}
+
+.workList {
+	background: #DFF1F3;
+	color: #black;
+	border: solid 1px #ccc;
+	padding-left: 12px;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 25px;
+}
+
+.scrollableMenu {
+	/*padding-top: 88px;*/
+	
+}
+
+.paddingTopProcedure{
+	padding-top: 1.5em;
+}
+
+.listGroupElement {
+	padding: 0;
+	padding-top: 1em;
+}
+
+.elementName {
+	padding: 15px 15px;
+	margin: 0;
+}
+
+.subElementName {
+	border-top: 1px solid #f7f7f7;
+	padding: 10px 30px;
+}
+
+.settingsBtn {
+	width: 100%;
+}
+
+.sidebar-left-in .app {
+	margin-left: 50px;
+}
+
+/** sidebarWorklist **/
+.divSidebarWorklist {
+	width: 50px;
+	height: 500px;
+}
+
+.sidebarScrollable {
+	height: 90%;
+}
+
+.listGroupWorklist {
+	text-align: center;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.elementGroupWorklist {
+	cursor: pointer;
+}
+
+.imgGroupWorklist {
+	padding: 0.4em;
+}
+
+.shorNameWorklist {
+	vertical-align: top;
+	font-size: 8px;
+	text-transform: uppercase;
+	font-weight: bold;
+	word-break: break-all;
+}
+
+.selected{
+	
+	color:blue;
+}
+/* ContentClinicalRecord*/
+.scrollable-clinical-record {
+	/*	height: 100%; */
+}
+
+.includeClinicalRecord {
+	/* height: 100% !important; */
+}
+
+.includeClinicalRecordHistoryView {
+	height: 100% !important;
+}
+
+.clinicalRecordUpload {
+	padding-left: 1em;
+	display: inline !important;
+}
+
+.iClinicalRecordUpload {
+	padding-left: 0.2em;
+	cursor: pointer;
+}
+
+.iconsAntecedentsGroup {
+	font-size: 1.8em;
+}
+
+.menuActionNotesToTop{	 
+    top: auto;	 
+	bottom: 100%;	 
+}
+
+.textStrong {
+	font-weight: 700;
+}
+
+.textActions {
+	width: 100%;
+	text-align: center;
+}
+
+.iconBtnActionsList {
+    padding-top: 0.35em;
+}
+
+.textBtnActionsList {
+	margin-top: 2em !important;
+}
+
+.btnGroupReportInpatient{
+	margin: 0 !important;
+}
+
+.menuActionsListReportInpatient {
+	left: inherit;
+	top: inherit;
+	bottom: inherit;
+}
+
+.menuActionsList {
+	right: 90%;
+	left: inherit;
+	top: inherit;
+	bottom: inherit;
+}
+
+.menuSubActionsList{
+	right: 95%;
+	left: inherit;
+	top: inherit;
+	bottom: inherit;
+	max-height: 400px;
+    overflow-y: auto;
+}
+
+.btnActionList {
+	vertical-align: top;
+}
+
+.iconActionList {
+	padding-right: 0.5em;
+}
+
+.patientHisNum {
+	padding-left: 1.2em;
+	padding-right: 0.5em;
+}
+
+.iconPatientBanner {
+	/*padding-top: 0.6em;*/
+	padding-left: 0.5em;
+}
+
+.hiddenBanner {
+	color: #4183D7;
+	cursor: pointer;
+}
+
+.allergiesBanner {
+	color: #F22613;
+	cursor: pointer;
+}
+
+.alertBanner {
+	color: #F9BF3B;
+	cursor: pointer;
+}
+
+.phoneAlertsBanner {
+	color: #34aadc;
+	cursor: pointer;
+}
+
+.menuPhoneAlertsList {
+	right: 80%;
+	left: inherit;
+	bottom: inherit;
+	top: 20%;
+	border: 1px solid #34aadc;
+}
+
+.liPhoneAlertsList {
+	font-weight: bold;
+}
+
+.phoneIconAlert {
+	padding-right: 0.5em;
+}
+
+.groupIconPatientBanner {
+	padding-left: 2em;
+}
+
+.tabGeneralView {
+	margin-left: 1.4em;
+}
+
+.tabTextGeneralView {
+	margin-left: 2.7em;
+}
+
+.tabHistoryView {
+	margin-left: 1.4em;
+}
+
+.tabCare {
+	margin-left: 1.4em;
+}
+
+.tabTextCare {
+	padding-left: 4.3em;
+}
+
+.tabMedication {
+	margin-left: 1.4em;
+}
+
+.tabTextMedication {
+	padding-left: 3.5em;
+}
+
+.tabNursingGraphic {
+	margin-left: 1.4em;
+}
+
+.tabTextNursingGraphic {
+	padding-left: 3em;
+}
+
+.tabTextHistoryView {
+	padding-left: 4.3em;
+}
+
+.tabAntecedents {
+	margin-left: 1.4em;
+}
+
+.tabTextAntecedents {
+	margin-left: 2.8em;
+}
+
+.tabDiagnostic {
+	margin-left: 1.4em;
+}
+
+.tabTextDiagnostic {
+	margin-left: 2.6em;
+}
+
+.tabDocuments {
+	margin-left: 1.4em;
+}
+
+.tabTextDocuments {
+	margin-left: 3.5em;
+}
+
+.tabPatientData {
+	margin-left: 1.4em;
+}
+
+.tabTextPatientData {
+	margin-left: 3em;
+}
+
+.marginLinea {
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+}
+
+.rowSurgicalProc{
+	padding-bottom: 1.5em;
+}
+
+.surgicalProcedure-1em{
+	font-size: 1em;
+}
+.codeIntervention{
+	padding-left: 3em;	
+}
+
+.alignCodeCatalogue{
+	text-align: left;
+}
+
+.iconPatientGender {
+	padding-right: 0.1em;
+	color: black;
+	font-size: 1.8em;
+	padding-top: 0.2em;
+	float: left;
+	padding-left: 0.2em;
+}
+
+.menuAllergiesList {
+	right: 80%;
+	left: inherit;
+	bottom: inherit;
+	top: 20%;
+	border: 1px solid #F22613;
+}
+
+.menuHiddenList {
+	right: 80%;
+	left: inherit;
+	bottom: inherit;
+	top: 20%;
+	border: 1px solid #4183D7;
+}
+
+.menuAlertList {
+	right: 80%;
+	left: inherit;
+	bottom: inherit;
+	top: 20%;
+	border: 1px solid #F9BF3B;
+}
+
+.listBanner {
+	padding: 8px;
+	text-align: center;
+	cursor: default;
+	font-size: 0.9em;
+}
+
+.agePatientSelected {
+	font-size: 0.8em;
+	vertical-align: text-top;
+}
+
+.inputErrorBorder {
+	border-color: #D91E18;
+}
+
+.iconBadge {
+	background-color: #007AFF;
+	font-weight: bold;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.renameDocument {
+	width: 300px !important;
+	float: left;
+	padding-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 1em;
+}
+
+.successIconOverlay {
+	/*cursor:pointer;*/
+	text-align: right;
+	color: green;
+	font-weight: bold;
+}
+
+.warningIconOverlay {
+	/*cursor:pointer;*/
+	text-align: right;
+	color: yellow;
+	font-weight: bold;
+}
+
+.errorIconOverlay {
+	/*cursor:pointer;*/
+	text-align: right;
+	color: red;
+	font-weight: bold;
+}
+
+.questionIconOverlay {
+	color: #007AFF;
+	text-align: right;
+	font-weight: bold;
+}
+
+.textInfoOverlay {
+	text-align: left;
+	color: black;
+	margin-top: 12px;
+	font-weight: bold;
+}
+
+.panelHeadingGeneralView {
+	padding: 0 0 5px !important;
+}
+
+.imgSeriesGeneralView {
+	display: none;
+}
+
+.panelBodyClinicalRecord {
+	padding: 5px 15px 5px 15px !important;
+}
+
+.docObsolet{
+	text-decoration: line-through;
+}
+
+
+.textAuthorClinicalRecord {
+	float: right;
+	padding-right: 1em;
+}
+
+.divImageSeriesCR {
+	padding-left: 10px;
+}
+
+.divAttachementCR {
+	padding-left: 10px;
+}
+
+.divPatientData {
+	padding-left: 0;
+	padding-right: 0;
+	/*width: 71%;*/
+}
+
+.divActionsClinical {
+	padding: 0;
+	width: 45%;
+	text-align: right;
+	height: 100%;
+	float: right;
+}
+
+.divActionsResponsive {
+	padding: 0;
+	text-align: right;
+	height: 100%;
+}
+
+.divElementPatientData {
+	padding-left: 0;
+}
+
+.actionTabsClinicalRecord {
+	height: 1.7em;
+	background-color: #C8c8c8;
+	cursor: pointer;
+}
+
+.tabsClinicalRecord {
+	height: 6em;
+	margin-left: 0.1em;
+	margin-top: 0.2em;
+	overflow-x: auto;
+	width: 100%;
+}
+
+.divTabClinicalRecord {
+	padding: 0.4em 0em 0em 0em;
+	float: left;
+	width: 9%;
+	text-align: center;
+	border-bottom: 4px solid #DCEAEE;
+}
+
+
+
+
+.actionFirstTabClinicalRecord {
+	margin-left: 10px;
+}
+
+.actionTabClinicalRecord {	
+	float: right;
+    cursor: pointer;
+    height: 52px !important;
+    width: 4.5em !important;
+}
+
+.divTabActiveClinicalRecord {
+	border-bottom: 4px solid #007aff;
+}
+
+.tabClinicalRecord {
+	border: 1px solid #007aff;
+	border-radius: 100%;
+	color: #007aff;
+	/*float: left;*/
+	width: 2em;
+	text-align: center;
+}
+
+.tabClinicalRecord:hover {
+	border: 1px solid #007aff;
+	/*padding: 12px;*/
+	border-radius: 100%;
+	color: white;
+	background-color: #007aff;
+	cursor: pointer;
+}
+
+.textCenter{
+	text-align: center;
+}
+
+.tabActiveClinicalRecord>.tabTextClinicalRecord {
+	color: black;
+}
+
+.tabActiveClinicalRecord {
+	border: 1px solid #007aff;
+	border-radius: 100%;
+	color: white;
+	background-color: #007aff;
+	cursor: pointer;
+}
+
+.tabResponsiveClinicalRecord {
+	color: white;
+	background-color: #007aff;
+	border-radius: 100%;
+	width: 1.7em;
+	height: 1.7em;
+	margin-top: 1em;
+}
+
+.tabResponsiveClinicalRecord:hover{
+	transform: scale(1.4);
+	margin-top: 1.1em;
+    margin-left: 0.03em;
+}
+
+.tabResponsiveClinicalRecord:hover + .tabResponsiveTextCR{
+	padding-top: 1.5em;
+}
+
+.divActTabsResponsive{
+	width: 2em;
+	padding: 0;
+	text-align: right;
+	height: 100%;
+	float: right;
+}
+
+.iconBtnTabRes{
+	padding-top: 0.15em;
+	cursor: pointer;
+	padding-right: 1em;
+}
+
+.tabResponsiveTextCR {
+	font-size: 0.8em;
+	color: #007aff;
+	text-align: center;
+	float: left;
+	margin-top: 0.5em;
+	width: 100%;
+}
+
+.divResponsiveTab{
+	min-height: 9em;
+	cursor: pointer;
+}
+
+.iIconResponsiveTabCR{
+	font-size: 1em;
+}
+
+.btnResTabCancel{
+	margin-top:1em;
+}
+
+.divClinicalRecordContent {
+	top: 14.08em;
+  	height:auto;
+  	bottom:3.5em;
+	border-top: 2px solid #C8c8c8;
+}
+
+.divContentResumenHistoryView {
+	background-color: #fdfdfd;
+    padding-top: 14px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.divContentResumenHistoryView .titleBox{
+	color: #007AFF;
+}
+
+.divContentResumenHistoryView .separatorRowItemResumen{
+	padding: 8px 2px 8px 2px;
+	border-bottom: 1px solid #d8d8d8;
+	margin-bottom: 5px;
+}
+
+.contentItemReportInpatient {
+	padding: 4px 1px 4px 1px;
+	border-bottom: 1px solid #d8d8d8;
+	margin-bottom: 5px;
+}
+
+.divContentResumenHistoryView .colIniFin{
+	padding-left: 1px;
+    padding-right: 1px;
+}
+
+.divContentResumenHistoryView .rowAntecedente{
+	background-color: #D2D7D3;
+}
+
+.divContentResumenHistoryView .contentResumenView{
+	height: 400px;
+    overflow-y: auto;
+    padding: 15px 15px 5px 15px !important;
+}
+
+.divContentResumenPrescription {
+	background-color: #FBFBFB;
+    padding-top: 14px;
+    padding-left: 1px;
+    padding-right: 1px;	
+}
+
+.divContentResumenPrescription .titleBox{
+	color: #007AFF;
+}   
+    
+.iconContentClinicalRecord {
+	padding-top: 15px;
+}
+
+.colTableAdministeredMed {
+	text-align: center;
+}
+
+.tableAdministeredMed {
+	background-color: #eee;
+}
+
+.rowAdministeredMed {
+	background-color: white;
+	border-radius: 0.2em;
+}
+
+.documentTypeClinicalRecord {
+	font-weight: bold;
+}
+
+.aLinksDocuments {
+	text-decoration: none;
+	color: black;
+	margin-right: 1em;
+	/*float: right;
+	margin-top: 5px;*/
+	padding-top: 15px;
+	padding-left: 15px;
+}
+
+.iIconsActions {
+	cursor: pointer;
+}
+
+.iIconsActionsAttach {
+	cursor: pointer;
+}
+
+.rubiconBlueColor {
+	color: #007aff !important;
+}
+
+.closeRenameAttach {
+	color: #D91E18;
+}
+
+.spanIconsActions {
+	cursor: pointer;
+	float: right;
+}
+
+.spanIconsActionsAppointment {
+	cursor: pointer;
+}
+
+.spanIconsActionsCancelled {
+	color: #C7C7C7;
+}
+
+.textHtmlRecord {
+	float: left;
+}
+
+.aIconsActionsAttach {
+	float: left;
+	/*padding-top: 1em;*/
+	padding-left: 5px;
+	font-size: 15px;
+}
+
+.iconAnctionsNewDT {
+	vertical-align: top;
+	float: right;
+	height: 100%;
+}
+
+.iconAnctionsNewDTChild {
+	height: 89%;
+}
+
+.docXml {
+	float: left;
+}
+
+.divIconsActionsAttach {
+	vertical-align: top;
+	width: 20px;
+	margin-left: 0.5em;
+	float: left;
+	/*padding-top: 1em;*/
+	margin-right: 0.5em;
+}
+
+.divIconsActionsAttachXml {
+	vertical-align: top;
+	width: 20px;
+	margin-left: 0.5em;
+	float: left;
+	margin-right: 0.5em;
+}
+
+.aLinkDocuments {
+	/*margin-right: 2em;*/
+	
+}
+
+.aLinksDocuments:hover {
+	text-decoration: none;
+}
+
+.menuActionsNotes {
+	right: 100%;
+	left: inherit;
+	top: inherit;
+}
+
+.menuActionsNewDT {
+	right: 60%;
+	left: inherit;
+	top: 94%;
+}
+
+.menuActionsNotesAttach {
+	left: inherit;
+	bottom: inherit;
+	top: 65%;
+	right: 100%;
+}
+
+.actionNotes {
+	cursor: pointer;
+	padding: 4px 4px 4px 10px;
+	/*text-align: center;*/
+	color:black!important;
+}
+
+.actionNotes:hover {
+	background-color: #F7F7F7;
+}
+
+.divIconReturnClinicalRecord {
+	cursor: pointer;
+	padding-left: 0.5em;
+	width: 3em;
+	padding-right: 0;
+	padding-top: 0.1em;
+	color: black;
+}
+
+.panelBodyHourRecord {
+	width: 10%;
+	text-align: center;
+	color: #007aff;
+	float: left;
+	font-weight: bold;
+}
+
+.panelBodyAuthorRecord {
+	float: left;
+	color: #007aff;
+	font-weight: bold;
+}
+
+.panelBodyDepartmentRecord {
+	float: right;
+	color: #007aff;
+	font-weight: bold;
+}
+.panelBodyDistintDepartment{
+	background-color: #C6C6CC;
+}
+
+.panelBodyDocumentRecord {
+	clear: both;
+	margin-left: 10%;
+	margin-top: 2.5%;
+}
+
+.contentProgressNotes {
+	/*overflow-y: scroll;*/
+	/*padding-bottom: 10em;*/
+	display: block;
+	/*height: 100%;*/
+}
+
+.divPatientClinicalRecord {
+	/*width: 70%;*/
+	float: left;
+	padding-left: 1em;
+	color: #007aff;
+	font-weight: bold;
+	font-size:1.2em;
+	/*min-width: 25em;*/
+	min-width: 22em;
+}
+
+.divInfoPatientClinicalRecord {
+	font-size: 1em;
+	/*width: 75%;*/
+	float: left;
+	/*padding-left: 1.8em;*/
+	font-weight: bold;
+	min-width: 30em;
+}
+
+.divClinicalRecord {
+	height: 3.4em;
+	width: 100%;
+	background-color: #D2D7D3;
+	padding-right: 4px;
+	margin: 0;
+}
+
+.actionIconActiveCR{
+	background-color: #95A5A6;
+ 	color: #fff !important;
+}
+
+.actionIconActiveFilterGV{
+	background-color: #95A5A6;
+ 	color: #fff !important;
+}
+.subactionIconActiveFilterGV{
+	background-color: #95A5A6;
+ 	color: #fff !important;
+}
+
+.paddingTopDivClinicalRercord{
+	padding-top: 4px !important;
+}
+
+.imgDivClinicalRecord {
+	float: right;
+	margin-top: 4px;
+	height: 1.8em;
+	margin-right: 8px;
+	cursor: pointer
+}
+
+.panelTitleClinicalRecord {
+	padding-top: 6px;
+	text-align: center;
+	color: #007aff;
+	font-size: 1.12em;
+    font-weight: bold;
+}
+
+.panelClinicalRecord {
+	/*margin: 5px;
+	border: 1px solid transparent;*/
+	margin-top: 1px;
+}
+
+.spanDoctorClinicalRecord {
+	font-weight: bold;
+	margin-left: 10%;
+}
+
+.spanDepartmentClinicalRecord {
+	float: right;
+	padding-right: 10px;
+}
+
+.divContentClinicalRecord {
+	/*padding-left:10px;*/
+	padding-top: 15px;
+}
+
+.tabTextClinicalRecord {
+	font-size: .7em;
+	color: rgb(0, 122, 255);
+	text-align: start;
+	position: inherit;
+	float: left;
+	margin-top: 0.5em;
+	width: 100%;
+	text-align: center;
+}
+
+.textButtonBarClinicalRecord {
+	/*margin-top: 1.6em;
+	font-size:.8em;*/
+	margin-top: 2.3em;
+	font-size: 0.6em;
+}
+
+.emptyRecordList {
+	display: none;
+	background-color: rgb(247, 247, 247);
+	padding: 13px 15px 15px 15px;
+	text-align: center;
+}
+
+.historyCheckers, .historyButtons, .encountersCheckers,
+	.encountersButtons {
+	margin-top: 2em;
+}
+
+.emptyHistory {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.marginTopRow {
+	margin-top: 1em;
+}
+
+.badgeDiagnosticList {
+	float: left !important;
+}
+
+.titleCodeDiagList {
+	font-weight: bold;
+	float: left;
+}
+
+.titleNameDiagList {
+	font-weight: bold;
+}
+
+.listDiagnosticList {
+	height: 250px; /*18em*/
+	overflow: hidden;
+	overflow-y: auto;
+	margin-top: 1em;
+}
+
+.listDiagnosticList>li:not (:first-child ){
+	cursor: pointer;
+}
+
+.listDiagnosticList>li:not (:first-child ):hover {
+	background: #007aff;
+}
+
+.radioDiagn {
+	float: right;
+}
+
+.phDiagList {
+	padding: 10px !important;
+}
+
+.inCodDiagSearch {
+	background: #f5f5f5;
+}
+/* contentOutpatients*/
+.accessOutpatient {
+	color: #007aff;
+	cursor:pointer;
+	/* text-decoration: underline; */
+}
+
+.outpatientRemarkColor {
+	color:#f49ac2;
+}
+
+.linkVisited {
+	color:#ff00ff !important;
+	text-decoration: underline !important;
+}
+
+.accessOutpatient:hover {
+	background-color: #f5f5f5;
+}
+
+.noAccessOutpatient {
+	color: black;
+	cursor: default !important;
+	background-color: white !important;
+}
+
+.filterStatus {
+	font-weight: bold;
+}
+
+.fontBold {
+	font-weight: bold;
+}
+
+.classCancelOverlay {
+	display: none;
+}
+
+.filterStatusPointer {
+	cursor: pointer;
+}
+
+.textBtnBarAppointmentToday {
+	margin-top: 5px;
+}
+
+.divStatusActive {
+	color: #87D37C;
+}
+
+.divStatusCancel {
+	color: #F64747;
+}
+
+.divStatusWaiting {
+	color: #F7CA18;
+}
+
+.divStatusPending {
+	color: #D2D7D3;
+}
+
+.divStatusEnded {
+	color: #007aff;
+}
+
+.inputFilterAppointments {
+	margin-top: 2%;
+}
+
+.iconsFilterAppointments {
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+.iconsFilterAppointmentsLastRow {
+	margin-top: 4%;
+	margin-bottom: 1%;
+}
+
+.btnFilterAppointments {
+	margin-top: 2%;
+}
+
+.divOutpatient {
+	height: 3em;
+	/*width: 100%;
+	padding-right: 4px;*/
+	background-color: #D2D7D3;
+	padding-top: 4px;
+}
+
+.tabSearchOutpatient{
+	margin-bottom: 3.2em;
+	font-size: 12px;
+}
+
+.divContentOutpatient {
+	top: 13.8em;
+	height: auto;
+	bottom:3.5em;
+}
+
+.tableContentOutpatient {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+
+.tableContentOutpatient th{
+	float:left;
+}
+
+.tableContentOutpatient td{
+	float:left;
+}
+
+.tableListOutpatientSmall{
+	width: 5%;
+}
+.tableListOutpatientMiddle{
+	width: 10%;
+}
+.tableListOutpatientLarge{
+	width: 15%;
+}
+
+
+.tableListPatientColum{
+	width: 15%;
+}
+
+
+/* Table OUTPATIENT VIEW */
+.oupatientViewTableAction	{ width: 5%; }
+.oupatientViewTableHour		{ width: 5%; }
+.oupatientViewTablePatient	{ width: 15%; }
+.oupatientViewTableGender	{ width: 4%; }
+.oupatientViewTableAge		{ width: 4%; }
+.oupatientViewTableRecordId	{ width: 7%; }
+.oupatientViewTableType		{ width: 12%; }
+.oupatientViewTablePayor	{ width: 10%; }
+.oupatientViewTableObservation{	width: 15%; }
+.oupatientViewTableSendBy	{ width: 10%; }
+.oupatientViewTableStatus	{ width: 13%; }
+/* END TABLE OUTPATIENT VIEW */
+
+.actionModeWindows {
+    background-color: #d2d7d3;
+    height: 3.4em;
+    overflow:hidden; 
+   	white-space:nowrap;
+   	right: 1px;
+}
+
+.actionModeWindows:hover {
+	position: absolute;
+    z-index: 1;
+    right: 0px;
+    height: auto;
+    -webkit-box-shadow: 5px 5px 29px -10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 5px 5px 29px -10px rgba(0,0,0,0.5);
+    box-shadow: 5px 5px 29px -10px rgba(0,0,0,0.5);
+	
+	border-radius: 0px 0px 0px 14px;
+	-moz-border-radius: 0px 0px 0px 14px;
+	-webkit-border-radius: 0px 0px 0px 14px;
+	border: 0px solid #000000;
+	overflow:initial; 
+}
+
+.btnMoreActions {
+	width: 1.5em !important;
+	padding-right: 10px !important;
+	padding-top: 8px !important;
+}
+
+.tabsModeWindows {
+    background-color: #dceaee;
+    height: 6em;
+    overflow:hidden; 
+   		white-space:nowrap; 
+}
+
+.tabsModeWindows:hover {
+	position: fixed;
+    z-index: 1;
+    height: auto;
+    -webkit-box-shadow: 10px 10px 29px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 29px -10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 29px -10px rgba(0,0,0,0.75);
+    padding-bottom: 0.5em;
+	overflow:initial; 
+}
+
+.filterDivOutpatient {
+	float: right;
+	margin-top: 4px;
+	/*height: 1.8em;*/
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.calendarOutpatient {
+	float: right;
+	margin-top: 4px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.calendarTodayOutpatient {
+	float: right;
+	margin-top: 4px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.tabActive{
+	background-color:#007aff!important;
+	color:#ffffff!important;
+}
+
+.tabInActive{
+	color:#007aff;
+	background-color:#ffffff;
+	padding-top: 4px !important;
+}
+
+.thTableContentOutpatient {
+	text-align: center;
+	padding: 8px 0px 8px 0px !important;
+	width: 28%;
+}
+
+.tdHourCancel {
+	background-color: #D91E18 !important;
+	color: white;
+	font-weight: bold;
+}
+
+.tdHourActive {
+	background-color: #87D37C !important;
+	color: white;
+	font-weight: bold;
+}
+
+.tdHourWaiting {
+	background-color: #F7CA18 !important;
+	color: white;
+	font-weight: bold;
+}
+
+.tdHourPending {
+	background-color: white !important;
+	color: black;
+	font-weight: bold;
+}
+
+.tdHourDone {
+	background-color: #007aff !important;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tdHourPartial_Done {
+	background-color: #77b8ff!important;
+	color: #fff;
+	font-weight: bold;
+}
+.surgeryStatuscancel {
+	color: #D91E18 !important;
+}
+
+.surgeryStatusin_the_process {
+	color: #87D37C !important;
+
+}
+
+.surgeryStatusstart {
+	color: #F7CA18 !important;
+
+}
+
+.surgeryStatuspending {
+	color: white !important;
+
+
+}
+
+.surgeryStatusdone {
+	color: #007aff !important;
+
+}
+
+.tdHourAppointments {
+	width: 6%;
+	text-align: center;
+	padding: 8px 0px 8px 0px !important;
+}
+
+.tdTypeAppointments {
+	width: 12%;
+	text-align: center;
+	padding: 8px 0px 8px 0px !important;
+}
+
+.tdPayorAppointments {
+	width: 20%;
+	text-align: center;
+	padding: 8px 0px 8px 0px !important;
+}
+
+.tdNumberHistoryAppointments {
+	width: 8%;
+	text-align: center;
+	padding: 8px 0px 8px 0px !important;
+}
+
+.tdStatusAppointments {
+	width: 10%;
+	text-align: center;
+	padding: 8px 0px 8px 0px !important;
+}
+
+.tdActionAppointments {
+	width: 8%;
+	text-align: center;
+	vertical-align: middle !important;
+	padding: 0px !important;
+}
+
+.imgActionAppointments {
+	margin-left: 10%;
+}
+
+.spanStatusAppointments {
+	margin-left: 10%;
+}
+
+.tdPatientAppointments {
+	cursor: pointer;
+	width: 28%;
+	text-align: center;
+	padding: 8px 0px 8px 0px !important;
+}
+
+.tdPatientAppointments:hover {
+	background-color: #f5f5f5;
+}
+
+.scrollable-content {
+	overflow-x: hidden;
+	/*-webkit-overflow-scrolling: touch;*/
+}
+
+.rowonTR tr:hover {
+	background-color: #d6f1fa!important;
+}
+
+.rowonDiv :hover {
+	background-color: #d6f1fa;
+}
+
+.menuActionsAppointments {
+	right: 100%;
+	left: inherit;
+	top: inherit;
+	padding: 5px 5px;
+}
+
+.menuActionsAppointmentsRight {
+	right: 100%;
+	top: inherit;
+	padding: 5px 5px; 
+}
+
+.menuActionsAppointmentsStudy {
+	right: 100%;
+	top: inherit;
+}
+
+.menuActionsAppointmentsUp {
+	bottom:0em;
+}
+
+.appoDone {
+	color: #007aff;
+}
+
+.appoWaiting {
+	color: #F7CA18;
+}
+
+.appoStart {
+	color: #87D37C;
+}
+/*Editor General View*/
+.editorGeneralViewForm {
+	padding-bottom: 2em;
+	display: none;
+}
+
+/*Editor History View*/
+.editorHistoryViewForm {
+	padding-bottom: 0.2em;
+	display: none;
+}
+
+.scrollableMenu {
+	padding-bottom: 0px !important;
+}
+
+/*Overlay templates*/
+
+.scrollableContentTemplates {
+	padding: 2em 1em 0em 1em;
+}
+
+.iconTemplatesOverlay {
+	margin-bottom: 1em;
+}
+
+.titleTemplatePadding{
+	padding: 6em 0em 2em 0em;
+}
+
+.tableAddTemplates {
+	background-color: #E4F1FE;
+}
+
+.deleteTemplatesIcon {
+	color: #F22613;
+	cursor: pointer;
+	text-align: right;
+}
+
+.itemHelperTmp{
+	height: 3em;
+}
+
+.tmpOverlay{
+	padding-top: 3em;	
+}
+
+.rowTemplates{
+	padding-bottom: 1.5em;
+}
+
+.selectStyleTemplates{
+	height: initial;
+	font-size: 1.2em !important;
+	padding: 0.6em;
+}
+
+.rowButtonsTemplates{
+	padding-top: 3em;
+}
+
+.scrollableTemplates {
+	padding: 2em 0em 2em 0em !important;
+	height: 90%;
+}
+
+/* Overlay SelectedRooms */
+/* --------------------- */
+.selectedRoomChild .some_selected {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.selectedRoomChild input {
+	width: 14px;
+	height: 14px; 
+}
+
+.selectedRoom .btnActive{
+	background-color: #ccc;
+}
+
+/* chkRubicon */
+.chkDefault {
+	position: relative;
+	display: inline;
+	padding: 3px 0 3px 0;
+}
+
+.chkDefault span {
+	margin-left: 22px;
+}
+
+.chkDefault  input[type=checkbox] {
+	visibility: hidden;
+}
+
+.chkDefault label {
+	cursor: pointer;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	top: 0;
+	border-radius: 4px;
+
+	-webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0,0,0,0.5);
+	background: #fcfff4;
+}
+
+.chkDefault label:after{
+	content: '';
+	position: absolute;
+	width: 9px;
+	height: 5px;
+	background: transparent;
+	top: 4px;
+	left: 4px;
+	border: 3px solid #fff;
+	border-top: none;
+	border-right: none;
+
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.chkDefault label:hover {
+	background: #dbdbdb;
+}
+
+.chkDefault .select {
+	background: #007aff;
+}
+
+.chkDefault .some_selected {
+	background: #CB2B2B;
+}
+
+.chkDefault input[type=checkbox]:checked + label:after {
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	opacity: 1;
+
+}
+
+.chkDefault input[type=checkbox]:indeterminate + label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+.btnCenter{
+	margin-top: -5px;
+}
+
+
+/*Overlay analytical*/
+
+.radioLabelAnalyticalDT {
+	margin-top: 0.8em;
+}
+
+.labelRadioAnal {
+	text-align: left;
+}
+
+.analProfile{
+	margin-top: 3em;
+}
+
+.radioAnalyticalDT {
+	padding-right: 0;
+}
+
+.rowAnalytic {
+	padding-bottom: 0.5em;
+}
+
+.rowLabelAnalytic {
+	padding-top: 0.5em;
+}
+
+.bodyCollapseAnalytic {
+	text-align: left;
+}
+
+.rowSelectAnalyticalElem, .rowRadiologyGroups, .rowButtonsAnalytical {
+	margin-top: 1em;
+}
+
+.textareaRadiology {
+	text-align: left;
+}
+
+.paddingBoxAnalytical{
+	/*padding-bottom: 1em;*/
+}
+
+.tittleBoxAnalytical{
+	color: black;
+	font-weight: bold;
+	line-height: 30px !important;
+	font-size: larger;
+}
+
+/* Inicio css Overlay Test Analytical*/
+.divBoxAnalitical {
+	margin-bottom: 5px;
+}
+
+.divBoxAnalitical .content{
+	margin: 1px solid #999999;
+}
+
+.divBoxAnalitical .header{
+	padding: 10px;
+	font-size: 16px;
+	color: #626262;
+	margin-bottom: -1px;
+}
+
+.boxOtherAvailableTestAnalitical .listCollapse {
+    padding: 6px 0 6px 0;
+    cursor: pointer;
+}
+
+.boxAvailableTestAnalitical .listCollapse {
+    padding: 6px 0 6px 0;
+    cursor: pointer;
+}
+
+.divListSelectedTestAnalytical{
+	overflow-y: auto;
+    margin-top: 1em;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.divListSelectedTestAnalytical .list-group-element {
+    position: relative;
+    display: block;
+    padding: 3px 24px 3px 1px;
+    background-color: #fff;
+}
+
+.divListSelectedTestAnalytical .list-group-element li {
+	padding-bottom: 5px;
+	padding-left: 1em;
+    font-weight: 500;
+    font-size: smaller;
+}
+
+.divListFrequentlyTestAnalytical{
+	overflow-y: auto;
+    margin-top: 1em;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.divListFrequentlyTestAnalytical li{
+    list-style-type: none;
+}
+
+/* Fin */
+
+
+.checkboxBoxAnalytical{
+	transform: scale(1.5);
+}
+
+.liBoxAnalytical{
+	padding: 0.4em 1em 0.4em 0.5em;
+}
+
+.itemPanelBoxAnalytical{
+	padding-left: 1em;
+	font-weight: 500;
+	font-size: smaller;
+}
+
+.labelAlignDiagnostic {
+	padding-top:0.6em;
+	/*text-align: left;*/
+}
+
+.radioBtnDiagnostic{
+	transform: scale(0.7);
+	float: left;
+}
+
+.textAreaRad{
+	resize: none;
+}
+
+.rowErrorNewRequest {
+	margin-top: 2em;
+}
+
+.rowAnalyticItems {
+	margin-top: 1em;
+}
+
+
+/* General Overlay Forms */
+.formContentFull {
+	padding: 1em;
+}
+
+.formContentFull .rowOverlayForm {
+	margin-top: 1em;
+}
+
+.formContentFull .scrollableOverlayContentBody{
+	padding: 0em 1em 0em 1em;
+}
+
+.formContentFull .listItems{
+	padding: 0.4em 1em 0.4em 0.5em;
+    font-size: 14px;
+    padding-left: 1em;
+    font-weight: 500;
+}
+
+.formContentFull .divListItems {
+	overflow-y: auto;
+    margin-top: 1em;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.formContentFull .divListItems .content{
+    padding: 7px 1px 10px 1px;
+    background: #ebebeb;
+}
+
+.formContentFull .divListItems .header{
+	font-weight: bold;
+    font-size: 14px;
+}
+
+.formContentFull .divListItems .list-group-element{
+    position: relative;
+    display: block;
+    padding: 3px 24px 3px 1px;
+    background-color: #fff;
+}
+ 
+.formContentFull .divListItems .list-group-element li{
+	padding-bottom: 5px;
+	padding-left: 1em;
+    font-weight: 500;
+    font-size: smaller;
+    list-style-type: none;
+}
+
+/* End General Overlay Forms */ 
+
+
+/* Antecedentes */
+.rowOverlayAntecedents {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.scrollableAntecedents {
+	padding: 2em 0em 2em 0em !important;
+	height: 90%;
+}
+
+.scrollableContentAntecedents {
+	padding: 0em 1em 0em 1em;
+}
+
+.rowTableAddAntecedents {
+	padding: 0em 1em 0em 1em;
+}
+
+.rowMsgOverlayAntecedents {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 0em 1em 0em 1em;
+}
+
+.tittleTypeAntecedents {
+	padding-right: 0.5em;
+}
+
+.tableAddAntecedent {
+	font-size: 0.9em;
+}
+
+.thTableAddAntecedent {
+	text-align: center;
+}
+
+.msgOverlayAntecedents {
+	font-weight: bold;
+	margin-bottom: 0.5em;
+	padding: 0.4em;
+	font-size: 0.9em;
+}
+
+.tdListAntecedent {
+	cursor: pointer;
+	padding-left: 0.5em;
+}
+
+.tittleOverlayAntecedent {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.tittlesOverlayAntecedents {
+	font-weight: bold;
+}
+
+.emptyAntecedents {
+	margin: 1em 2em 2em 1em;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.inputOverlayAntecedent {
+	/*padding-top: 0.7em;*/
+	
+}
+
+.boxOverlayAntecedents {
+	padding: 1em;
+}
+
+.borderBoxOverlayAntecedents {
+	border: 2px solid #6BB9F0;
+	padding: 2em;
+	border-radius: 10px;
+}
+
+.inputsOverlayAntecedent {
+	/*width: 100px;*/
+	float: left;
+	transform: scale(0.7);
+}
+
+.textInputOverlayAntecedent {
+	margin-top: 0.2em;
+}
+
+.textOverlayAnt {
+	margin-top: 0.7em;
+}
+
+.spanTextOverlayAntecedent {
+	float: left;
+	padding-top: 10px;
+	color: black;
+}
+
+.antecedentBox {
+	/*padding: 30px 15px 30px 30px;*/
+	
+}
+
+.tittleAntecedentBox {
+	padding: 8px 15px 8px 15px !important;
+	text-align: center;
+	font-weight: bold;
+	background-color: #F7F7F7 !important;
+}
+
+.rowAntecedentsBox {
+	padding: 1em;
+	/*padding-bottom: 12%;*/
+}
+
+.listAntecentsBox {
+	padding: 5px 5px 5px 5px;
+	border-bottom: 2px solid #F7F7F7;
+}
+
+.contentAntecedentBox {
+	padding: 15px 15px 5px 15px !important;
+	/*min-height: 8em;*/
+}
+
+.iIconsActionsAntecedents {
+	padding-left: 10px;
+	color: #007aff;
+	cursor: pointer;
+}
+
+.iIconsAddAntecedents {
+	cursor: pointer;
+}
+
+.spanIconsAntActions {
+	width: 20px;
+	margin-left: 1.5em;
+}
+
+.menuActionsAntecedents {
+	right: 100%;
+	left: 100%;
+	top: -250%;
+	bottom: inherit;
+	min-width: 130px;
+}
+
+.actionAntecedent {
+	cursor: pointer;
+	padding: 8px;
+	text-align: center;
+}
+
+.actionAntecedent:hover {
+	background-color: #F7F7F7;
+}
+
+/*Datos demograficos*/
+#contentDemographicData {
+	margin-bottom: 10em;
+}
+
+.rowPatientNameDemographicView {
+	padding: 0.4em;
+}
+
+.patientDemographicName {
+	font-size: 0.9em;
+	padding-left: 0.4em;
+}
+
+.patientNameDemographicView {
+	padding: 0.3em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.patientNameDemographicView {
+	text-align: center;
+    border: 1px solid #f7f7f7;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+	-webkit-box-shadow: 9px 9px 10px -9px rgba(0,0,0,0.69);
+	-moz-box-shadow: 9px 9px 10px -9px rgba(0,0,0,0.69);
+	box-shadow: 9px 9px 10px -9px rgba(0,0,0,0.69);
+}
+
+.rowtable {
+	font-weight: bold;
+}
+
+.tableDemographicData tr:nth-child(odd) {
+	background: #f7f7f7;
+}
+
+.rowTableDemographicData {
+	text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #fefefe;
+    border-radius: 3px;
+    margin: 0px 6px 0px 6px;
+    padding: 20px 5px 10px 5px;
+}
+
+.rowTableDemographicData div tr td{
+	padding: 8px;
+	border: none;
+}
+
+/*DataBox view*/
+
+.tabDataBox {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.actionDataBox {
+	padding: 1px;
+	float: right;
+	cursor: pointer;
+	height: 90% !important;
+	width: 4.5em !important;
+}
+
+.contentOverlayDataBox{
+	padding-top: 3em !important;
+}
+
+.divContentDataBox {
+    top: 10em;
+    height: auto;
+    bottom: 3.5em;
+    border-top: 2px solid #C8c8c8;
+    margin-top: 2.8em;
+}
+
+.tableContentDataBox{
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+
+.spaceIconFilter {
+    padding-left: 0.5em;
+}
+
+.tableContentInformedConsent {
+	text-align: center;
+	background-color: white;
+	height: auto;
+    /*margin: 2.8em 1em 0em 1em;*/
+}
+
+.tdCodeTemplateInforCons{
+	width: 20%;
+}
+
+.tdNameInforCons{
+	width: 25%;
+}
+
+.tdGroupInforCons{
+	width: 25%;
+}
+
+.tdEditInforCons{
+	width: 10%;
+}
+
+.tdPreviewInforCons{
+	width: 10%;
+}
+
+.tdDeleteInforCons{
+	width: 10%;
+}
+
+/*Documents and reports*/
+.divReportsDocumentsView {
+	top:5.7em;
+	height: auto;
+}
+.tabReportsAndDocuments{
+	width: 20%;
+	text-align: center;
+}
+
+.tableContentReportsAndDocuments {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+
+.tableContentReportsAndDocuments th{
+	float:left;
+	display:block;
+	text-align: center;
+}
+
+.tableContentReportsAndDocuments td{
+	float:left;
+	display:block;
+		text-align: center;
+}
+.tableContentReportsAndDocumentsSmall{
+	width: 5%;
+}
+.tableContentReportsAndDocumentsMiddle{
+	width: 10%;
+}
+.tableContentReportsAndDocumentsLong{
+	width: 15%;
+}
+
+.divPreviousHistoryContent{
+	top:3em;
+	height: auto;
+}
+
+.tableConsentAction {width: 5%;}
+.tableConsentName {width: 20%;}
+.tableConsentAuthor {width: 20%;}
+.tableConsentDepartment {width: 20%;}
+.tableConsentType {width: 20%;}
+.tableConsentDate {width: 15%;}
+
+.panelTitleReportsAndDocuments{
+	font-size: 14px;
+}
+.actionNotesReportsAndDocuments {
+	padding:0em!important;
+}
+.accessReport {
+	color: #007aff;
+	cursor:pointer;	
+}
+.accessReport a{
+	text-decoration: none;
+}
+.accessReport:hover {
+	background-color: #f5f5f5;
+}
+.btnFilterReportsAndDocuments {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-top: 0;
+}
+
+.ReportsAndDocumentsOverlayScrollable{
+	padding-top: 3em;
+	padding-bottom:3em;
+	height: 85%;
+}
+.ReportsAndDocumentsOverlayScrollableContent{
+	padding-top: 3em;
+	padding-bottom:3em;
+	
+}   
+.rowReportEmergency{
+	padding: 1em 0em 1em 0em;
+}
+
+.scrollableContentEmerReport {
+	padding: 3em 0em 0em 1em;
+}
+
+.fieldsetReportEmer{
+	border: 1px solid #D2D2D2;
+	padding: 1.5em;
+}
+
+.errorReportEmergency{
+	color:red;	
+}
+
+.legendReportEmer{
+	font-size: 1.1em;
+	font-weight: bold;
+	border-bottom: 0;
+	width: 25%;
+	margin-bottom: 0;
+	color: black;
+}
+
+.labelMotivesTitle{
+	padding-top: 0.5em;
+}
+
+.iIconReportBtn {
+	padding-right: 0.3em;
+}
+
+.boxReportDocument {
+	padding: 0.4em;
+}
+
+
+.reportDocumentTittle {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0em 1em 0.7em 1em;
+}
+
+.rowErrorReportsAndDocuments {
+	margin-top: 1.5em;
+}
+.consentHighLight:hover{
+	background-color: lightblue !important;
+	cursor:pointer;
+}
+.generalContentRepAndDocs {
+	/*margin-bottom: 5em;*/	
+}
+
+.fontBold{
+	font-weight: bold;
+}
+
+.rowCaptionRepAndDocs {
+	padding: 1em;
+}
+
+.subtitleRepAndDocs {
+	padding: 0em 1em 0.7em 1em;
+}
+
+.reportDocumentTypeDep {
+	padding: 0em 1em 0.7em 1em;
+}
+
+.reportDocumentStatus {
+	padding: 0em 1em 0.7em 1em;
+}
+
+.statusRepAndDocs {
+	float: right;
+	margin-top: 0.8em;
+}
+
+.typeDepartmentReport {
+	padding-left: 0.5em;
+}
+
+/*Patient protocol view*/
+
+.divContentProtocolView {
+	top:7em;
+	height: auto;
+}
+
+.arrowGenericRequest{
+	margin-top: 1.5em;
+	padding: 0.2em;
+}    
+
+.tableContentProtocolView {
+	/*text-align: center;*/
+	background-color: #ffffff;
+	height: auto;
+}
+
+.rowOverlayAnesthesiaProtocol{
+	/*margin-top: 3%;*/
+    margin-bottom: 3%;
+}
+
+.divRowPreviousIllnesses{
+	padding: 0em 0em 1em 0em;
+}
+
+.divBoxFieldsetPreviousIll{
+	padding: 0em 2em 1.5em 2em;
+}
+
+.labelPreviousIllnesses{
+	padding-top: 0.5em;
+}
+	
+.paddingLabelTextProtocol{
+	padding-top: 0.5em;
+}
+
+.fieldsetPreviousIllnesses{
+	border: 1px solid #007aff;
+	border-radius: 3px;
+	padding: 1em;
+}
+
+.fieldsetMultiCare{
+	margin-top: 1em;
+	border: 1px solid #007aff;
+	border-radius: 3px;
+	padding: 1em;
+}
+
+.checkboxPreviousIllnesses{
+	transform: scale(0.7);
+}
+
+.legendPreviousIllnesses{
+	/* z-index: 99999; */
+    background-color: white;
+	border-bottom: 0;
+    width: 25%;
+    color: black;
+    font-size: 1.15em;
+    font-weight: bold;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.paddingLeftTaskProtocol{
+	padding-left:0.5em !important;
+}
+
+.paddingLeftSubTaskProtocol{
+	padding-left:1.5em !important;
+}
+
+.groupAnesthesiaProtocol{
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 1.5em 0em;	
+}
+
+.iconBadgeProtocol {
+	background-color: #007AFF;
+    font-weight: bold;
+    margin-left: 0.5em;
+    padding-top: 0.4em;
+}
+
+.paddingElementArrowProtocol{
+	padding-right: 0.5em;
+}
+
+.actionNoTitleProtocol{
+	padding-top: 0.2em;
+}  
+
+.paddingBtnDownProtocol{
+	padding-top: 2em;
+}
+
+.tableContentProtocolView th{
+	float:left;
+	display:block;
+}
+
+.tableContentProtocolView td{
+	float:left;
+	display:block;
+}
+
+.colProtocolAction{
+	width: 15%;
+}
+
+.colProtocolName{
+	width: 20%;
+}
+
+.colProtocolInitDatetime{
+	width: 10%;
+}
+
+.colProtocolAutorRequest{
+	width: 20%;
+}
+
+.colProtocolDepartmentRequester{
+	width: 15%;
+}
+
+.colProtocolStatus{
+	width: 10%;
+}
+
+.colProtocolResultDatetime{
+	width: 10%;
+}
+
+/* BEGIN protocol test preoperate */
+.preoperateProtocol-form-chk {
+	height: 19px;
+}
+
+.preoperateProtocol-form-label-chk {
+	margin: 4px 0 0;
+}
+
+.preoperateProtocol-form-input-row {
+	margin-top: 10px;
+}
+/* END protocol test preoperate */
+
+.divTaskTitle {
+	height: 3.2em;
+}
+
+.itemsListTasks {
+    font-weight: bold;
+    padding-left: 2em;
+}
+						
+.colProtocolSearchText{
+	width: 15%;
+}
+
+.borderListTask{
+	border: 1px solid #ddd;
+}
+
+.spanAddProtocolTask{
+	margin-left: 0.4em;
+    margin-right: 0.5em;
+    padding-top: 0.1em;
+    font-size: 1.5em;
+}
+
+.paddingActionSubTaskProtocol{
+	padding-right: 1em;
+}
+
+.paddingSubTaskProtocol{
+	padding-left: 3em !important;
+}    
+
+.listProtocolTaskWithItems {							
+	padding: 0.8em;
+	/*background-color: rgba(247, 247, 247, 0.58);*/
+}
+
+.cleanStylesSubReTask{
+	clear: both;
+}
+
+.listProtocolTaskWithItems:hover {							
+	background-color: rgba(247, 247, 247, 0.58);
+}
+
+.listProtocolTaskWithItemsActive {							
+	background-color: #d6f1fa !important;
+}
+
+.listProtocolSubTaskWithItemsActive {							
+	background-color: rgba(52, 170, 220, 0.06);
+}
+
+.colListProtocolView {
+	padding: 0;
+	border-right: 1px solid rgb(210, 215, 211);
+	height: auto;
+	margin-bottom: 3em!important;
+}
+
+
+.listGroupProtocolTask{
+	list-style: none;
+}
+
+.backgroundWhiteColor{
+	background-color: white;
+}
+
+.styleContentProtocolView{
+	padding: 1em 0em 4em 0em;
+    background-color: white;
+}
+
+.colContentProtocolView {
+	padding: 0px 0px 0px 3px;
+	/*top: 3em!important;
+    height: auto;
+    bottom: 3em!important;*/
+}
+
+.statusProtocol {
+	padding: 5px;
+	color: #ffffff;
+}
+
+.searchInputProtocol{
+	width: 80% !important;
+}
+
+.accessProtocol:hover {
+    background-color: #f5f5f5;
+}
+
+.includeClinicalRecordProtocol {
+	height: 100% !important;
+}
+
+.iframeProtocol{
+	width: 100%;
+    height: 600px;	
+}
+
+/*Patient diagnostic tests*/
+.divContentDiagnosticTests {
+	top:7em;
+	height: auto;
+	
+}
+.tableContentDiagnosticTests {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+
+.tableContentDiagnosticTests th{
+	float:left;
+	display:block;
+}
+
+.tableContentDiagnosticTests td{
+	float:left;
+	display:block;
+}
+
+.diagnosticTestHeight{
+	padding: 10px !important;
+}
+
+.diagnosticTestRemarkColor {
+	color:#f49ac2;	
+}
+
+.colExamActionRequest	{ width: 5%; }
+.colExamDateRequest		{ width: 7%; }
+.colExamTestRequest		{ width: 20%; }
+.colExamCommentRequest	{ width: 18%; }
+.colExamViewRequest		{ width: 15%; }
+.colExamSearchRequest	{ width: 33%; }
+.colExamApplicantRequest{ width: 15%; }
+.colExamDateResultRequest{ width: 10%; }
+.colExamResultRequest	{ width: 10%; }
+
+
+/* History view*/
+.colListHistoryView {
+	padding: 0;
+	border-right: 1px solid rgb(210, 215, 211);
+	height: auto;
+	bottom:3em!important;
+	
+}
+
+.colContentHistoryView {
+	padding: 0;
+	/* height: 100%; */
+}
+
+.actionActiveHistory{
+	background-color: ghostwhite; 
+	border-radius: 4px;
+}
+
+.itemHistorySelected{
+	background-color: #f5f5f5;
+}
+
+.itemHistoryNoSelected{
+	background-color: white;
+}
+
+.rowContentHistoryView {
+	margin-left: 0;
+}
+
+.scrollable-menu-dates {
+	height: auto;
+	/*max-height: 32em;*/
+	overflow-x: hidden;
+	cursor: pointer;
+	margin-bottom: 0;
+}
+
+.scrollable-menu-content {
+	height: auto;
+	max-height: 30.5em;
+	overflow-x: hidden;
+	/*width: 82.3%;*/
+}
+
+.iconPHistory {
+	color: #EB9532;
+}
+
+.iconHHistory {
+	color: #4183D7;
+}
+
+.iconAHistory {
+	color: rgb(46, 204, 113);
+}
+
+.iconUHistory {
+	color: #F22613;
+}
+
+.iconUHistory, .iconAHistory, .iconHHistory, .iconPHistory,
+	.iconCalendar {
+	font-size: 1.2em;
+	vertical-align: sub;
+}
+
+.inputLiFilterHistory {
+	list-style-type: none;
+	color: #007aff;
+}
+
+.inputFilterHistory {
+	width: 100% !important;
+}
+.button-search-History{
+	border:none;
+	width:calc(100%-3em);
+	background-color: transparent;
+	overflow:hidden; 
+	white-space:nowrap; 
+	text-overflow: ellipsis;
+}
+
+.buttonListHistoryView {
+	padding: 0 0 0.5em 0;
+	z-index: 1;
+}
+
+.panel-group-mobile {
+	margin-bottom: 0;
+}
+
+.panel-heading-mobile {
+	padding: 0 0px !important;
+}
+
+.panel-body-mobile {
+	padding: 0 !important;
+}
+
+.titleHistoryItemInCustom {
+	cursor: pointer;
+	margin-right: 0.5em;
+}
+
+/* ContentEmergency */
+.divEmergency{
+	height: 3.1em;
+	background-color: #D2D7D3;
+	padding-top: 0.2em;
+	text-align: center;
+}
+
+.divContentEmergency{
+	top:13.8em;
+	height: auto;
+	margin-bottom:3.5em;
+}
+.tableContentEmergency {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+.tableContentEmergency th{
+float:left;
+text-align: center;
+}
+
+.tableContentEmergency td{
+float:left;
+text-align: center;
+}
+
+/**  Emergency table columns**/
+.emergencyTableAction		{ width: 5%; }
+.emergencyTableTriage		{ width: 5%; }
+.emergencyTableHour			{ width: 5%; }
+.emergencyTableNextTurn		{ width: 5%; }
+.emergencyTableName			{ width: 10%;}
+.emergencyTableGender		{ width: 5%; }
+.emergencyTableAge			{ width: 5%; }
+.emergencyTableRecord		{ width: 5%; }
+.emergencyTableAlerts		{ width: 5%; }
+.emergencyTableInProcess	{ width: 5%; }
+.emergencyTableDoctor		{ width: 10%;}
+.emergencyTableDoctorEnf	{ width: 15%;}
+.emergencyTableReason		{ width: 15%;}
+.emergencyTableReasonEnf	{ width: 21%;}
+.emergencyTablePlannedDischage{ width: 5%;}
+.emergencyTableDischage		{ width: 5%; }
+.emergencyTableDuration		{ width: 5%; }
+.emergencyTableStatus		{ width: 5%; }
+.emergencyTableStatusEnf	{ width: 9%; }
+/** END-- Emergency table columns**/
+
+.titleEmergency {
+	display:block;
+	float:inherit;
+	margin:0.4em;
+	margin-top: 10px;
+}
+
+.scrollableEmergency {
+	height: auto;
+	top:7.2em;
+	bottom:3.5em;
+}
+
+.filterObservation {
+	color: #F1A9A0;
+}
+
+.tittleTextEmergency{
+	padding-top: 1em;
+}
+
+.filterEmergency {
+	float: right;
+	font-size: 2em;
+	cursor: pointer;
+	padding-top: 0.2em;
+	text-align: right;
+}
+
+.textTitleEmergency {
+	background-color: #0F81FF;
+}
+
+.emergencyBox {
+	padding-top: 1em;
+}
+
+.secondRowFilterEmergency {
+	padding-left: 8%;
+}
+
+.contentEmergency{
+	padding: 1.2em;
+	border: 1px solid #007aff;
+	border-radius: 0.3em;
+	background-color: white;
+	
+}
+.contentEmergencyBoxGreen {
+	padding: 1.2em;
+	border: 1px solid #00682B;
+	border-radius: 0.3em;
+	background-color: #87D37C;
+}
+
+.contentEmergencyBoxWhite {
+	padding: 1.2em;
+	border: 1px solid #007aff;
+	border-radius: 0.3em;
+	background-color: white;
+}
+
+.contentEmergencyBoxDefault {
+	padding: 1.2em;
+	border: 1px solid #007aff;
+	border-radius: 0.3em;
+}
+
+.contentEmergencyBoxPink {
+	padding: 1.2em;
+	border: 1px solid #DB0A5B;
+	border-radius: 0.3em;
+	background-color: #F1A9A0;
+}
+
+.contentEmergencyBoxYellow {
+	padding: 1.2em;
+	border: 1px solid #AC8900;
+	border-radius: 0.3em;
+	background-color: #F5D76E;
+}
+
+.spanIconBoxEmergency {
+	margin-top: 2em;
+	padding-right: 1em;
+	text-align: right;
+}
+
+.iIconBoxEmergency {
+	color: #007aff;
+}
+
+.divPatientRecordEmergency {
+	font-weight: bold;
+	color: #007aff;
+	cursor: pointer;
+}
+
+.hospDateEmergency {
+	font-weight: bold;
+}
+
+.doctorEmergency {
+	font-weight: bold;
+}
+
+.boxTittleEmergency {
+	font-size: 1.2em;
+}
+
+.departmentEmergency {
+	text-align: right;
+	font-weight: bold;
+}
+
+.reasonEmergency {
+	font-weight: bold;
+	padding-left: 1.5em;
+}
+
+.semiRowEmergencyDoctor {
+	text-align: right;
+}
+
+.semiRowEmergencyNoDoctor {
+	text-align: right;
+	padding-bottom: 1.5em;
+}
+.emergencyStatus{
+	padding: 0.3em;
+	border-radius:0.4em;
+}
+.emergencyStatus-TRIAGE{
+	background-color: #F7CA18;
+	color: white;
+	font-weight: bold;
+}
+.emergencyStatus-IN_THE_PROCESS{
+	background-color: #87D37C;
+	color: white;
+	font-weight: bold;
+}
+.emergencyStatus-OBX{
+	background-color: #F1A9A0;
+	color: white;
+	font-weight: bold;
+}
+.emergencyStatus-DISCHARGE{
+	background-color: #007aff;
+	color: white;
+	font-weight: bold;
+}
+
+.emergencyIconTriage-1{
+	color: red;
+}
+.emergencyIconTriage-2{
+	color: orange;
+}
+.emergencyIconTriage-3{
+	color: yellow;
+}
+.emergencyIconTriage-4{
+	color: green;
+}
+.emergencyIconTriage-5{
+	color: blue;
+}
+/************** OVERLAY CATALOGUE********************/
+
+.titleOverlay{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.rowOverlay{
+	margin-bottom: 1em;
+}
+
+.overlayList {
+	height: 200px;
+	overflow-y: auto;
+	margin-bottom: 0;
+	/* overflow: hidden; */
+}
+
+.headerListGroup{
+	padding-bottom: 2.4em;
+	font-weight: bold;
+}
+
+.rowListGroup{
+	padding-bottom: 2em;
+	font-weight: bold;
+}
+
+.badgeOverlayList {
+	float: left !important;
+	background-color: #007aff;
+}
+
+.labelErrorOverlay{
+	color:red;
+}
+
+.fieldsetOverlay{
+	border: 1px solid #D2D7D3;
+	padding: 1em;
+}
+
+.legendOverlayCatalogue{
+	font-size: x-large;
+	border-bottom: 0;
+	width: 30%;
+	margin-bottom: 0;
+	color: black;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.rowOutsideCatalogueOverlay{
+	padding: 0em 2em 0em 2em;
+}
+
+/************** MEDICATION ********************/
+.medicationContainer{
+	height: auto;
+	top:0em;
+	bottom:0em;
+}
+.imgCapsule {
+	width: 1.8%;
+	margin-right: 1em;
+}
+
+.paddingTableMed{
+	padding: 0.5em;
+}
+
+.noPaddingTableMed{
+	padding: 0em;
+}
+
+.startDateAdministeredMed{
+	padding-left: 1em !important;
+}
+
+.noPaddingLeft {
+	padding-left: 0px;
+}
+
+.paddingLabel{
+	padding-top: 0.5em;
+}
+
+.badgeStyleCareMed{
+	margin-left: 2.6em;
+	padding: 4px 10px;
+}
+
+.labelAppHours{
+	float:left;
+	padding-left: 0.5em;
+	width: 70%;
+}
+
+.rowListGroupMedSerum{
+	padding-bottom: 3em;
+	font-weight: bold;
+}
+
+.overlayListMed {
+	max-height: 145px;
+	overflow-y: auto;
+	margin-bottom: 0;
+}
+
+.itemListGroupMedSerum{
+	margin-top: 0.4em;	
+}
+
+.doseQuantityMed{
+	text-align: center;
+}
+
+.badgeTittleMedCare{
+	color: #5cb85c;
+    margin-left: 1.5em;
+    padding: 4px 10px;
+    font-weight: bold;
+    background-color: white;
+    font-size: 0.9em;
+    white-space: inherit;
+}
+
+.badgeTittleMedPerfusion{
+	color: #5cb85c;
+    /*padding: 4px 10px;
+    background-color: white;*/
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.titleSerum{
+	text-align: right;
+	padding-top: 0.3em;	
+}
+
+.medCareItem{
+	padding-top: 5px;
+}
+
+.badgeDefault{
+	background-color: white;
+	color: black;
+    font-size: 0.95em;
+}
+
+.labelAppHoursWithComment {
+	padding-left: 0em;
+}
+
+.slotsPrescription {
+	padding-left: 0;
+	padding-right: 0;
+}
+.editslotsInputsTime {
+	border: none;
+    width: 20%;
+    text-align: center;
+}
+
+.dateTableAdminMed {
+	background-color: #007aff;
+	color: white;
+}
+
+.iconAddSlots {
+	float: right;
+	padding-top: 0.3em;
+    padding-right: 0.1em;
+	color: black;
+	cursor: pointer;
+}
+
+.paddingMedCareMed{
+	padding-left: 15px;
+    padding-right: 5px;
+}
+
+.paddingGuideLineMedCare{
+	padding-left: 15px;
+    padding-right: 5px;
+}
+
+.paddingRegistMedCare{
+	padding-left: 5px;
+    padding-right: 15px;
+}
+
+.noPaddingRight {
+	padding-right: 0px;
+}
+
+.msgMedicationError {
+	color: #E74C3C;
+}
+
+.medicationWithInitDate {
+	color: red;
+	font-weight: bold;
+}
+
+.noPaddingLeftRight {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.rowPrescriptionMedications {
+	background-color: rgb(247, 247, 247);
+	margin-bottom: 0.2em;
+	padding-left: 3px;
+	padding-right: 3px;
+	border: 1px solid rgb(210, 215, 211);
+}
+
+.nameDoctorMedication {
+	margin-left: 1em;
+}
+
+.divReasonSuspendMed {
+	padding-bottom: 3em;
+}
+
+.textReasonSuspendMed {
+	font-weight: bold;
+	padding-top: 0.5em;
+}
+
+.actionPrescription {
+	cursor: pointer;
+	padding: 8px;
+	text-align: center;
+	color: black;
+}
+
+.actionNursingApp {
+	cursor: pointer;
+	padding: 8px;
+	text-align: center;
+	color: black;
+	font-weight: initial;
+}
+
+.actionPrescription:hover {
+	background-color: #F7F7F7;
+}
+
+.contentMedicationView {
+	padding-bottom: 5%;
+}
+
+.calendarChangeMedication {
+	cursor: pointer;
+}
+
+.tittleAddMedication {
+	padding-top: 2em;
+}
+
+.spaceRowAddMedication {
+	padding-top: 2em;
+}
+
+.thTableAddMedication {
+	text-align: center;
+}
+
+.spaceTableAddMedication {
+	padding-top: 3em;
+}
+
+.tableAddMedication{
+	background-color: #DFF0D8;
+}
+
+.iconOverlayMedication {
+	padding-right: 0.5em;
+	vertical-align: middle;
+}
+
+.marginSerotherapy{
+	margin-top: 3em;
+}
+
+.btnSearchSerumMed{
+	color: #337ab7;
+	padding: 0.5em;
+	font-weight: bold;
+	border: 1px solid #A7A5A5;
+	border-radius: 0.3em;
+}
+
+.btnSearchSerumMed:hover{
+	background-color: #337ab7;
+	color: white;
+}
+
+.selectDrugsTable {
+	height: 17em !important;
+	overflow-y: auto;
+}
+
+.plusDrugTable:hover{
+	color: #2ECC71;
+	cursor:pointer;
+}
+
+.rowDrugTable:hover{
+	background: #DADFE1;
+	color: black;
+}
+
+.scrollableOverlayMedication {
+	padding: 2em 0em 2em 0em !important;
+	height: 90%;
+}
+
+.outsideCatalog {
+	padding-top: 3em;
+}
+
+.textOutsideCatalog {
+	margin-top: 0.5em;
+}
+
+.arrowDown {
+	color: #2ECC71;
+	cursor: pointer;
+}
+
+.divArrowMedication {
+	height: 3em;
+}
+
+.rowOutsideCatalogue {
+	margin-top: 4em;
+}
+
+.tittleOverlayMedication {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.scrollableContentMedication {
+	padding: 0em 1em 0em 1em;
+}
+
+.textOverlaySearchMedication {
+	margin-top: 0.4em;
+}
+
+.rowOverlayMedication {
+	margin-top: 2em;
+}
+
+.iconSearchMedicine {
+	cursor: pointer;
+}
+
+.deleteMedicationIcon {
+	color: #F22613;
+	cursor: pointer;
+}
+
+.rowOverlayArrowMedication {
+	padding-top: 1em;
+}
+
+.divOverlayMedications {
+	background-color: #D2D7D3;
+	border: 1px solid black;
+	border-radius: 0.3em 0.3em 0em 0em;
+	cursor: pointer;
+}
+
+.optionOverlayMedications {
+	padding: 0.2em 0em 0.2em 0em;
+}
+
+.inputDrugQuantity {
+	width: 5em;
+}
+
+.inputDrugComment {
+	width: 10em;
+}
+
+.msgRequiredFields {
+	text-align: center;
+	color: #007aff;
+	font-weight: bold;
+}
+
+.inputDrugDose {
+	width: 5em;
+}
+
+.selectTract {
+	width: 8em;
+}
+
+.selectPattern {
+	width: 8em;
+}
+
+.selectCondition {
+	width: 8em;
+}
+
+.headingMedication {
+	padding: 4px;
+}
+
+.headingMedicationEmptyAction {
+	padding: 5px;
+}
+
+.headingPauta {
+	padding: 5px 2px 5px 0px;
+	text-align: center;
+}
+
+.headingRegister {
+	padding: 5px 2px 5px 0px !important;
+	text-align: center;
+}
+
+.rowHeaderMedication {
+	background: #D2D7D3;
+	text-align: center;
+}
+
+.titleMedication {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.headingMedicationPrimary {
+	padding: 4px 5px 3px 5px;
+}
+
+.bodyMedicationPrimary {
+	padding: 5px 5px;
+}
+
+.bodyMedicationElement {
+    position: relative;
+    display: block;
+    padding: 7px 8px;
+    background-color: #fff;
+}
+
+.titleMedicationPrimary {
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+.badgeDosis {
+	color: #d9534f;
+    background-color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.badgeGray {
+	color: #6C7A89;
+    background-color: white;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.paddingSelectMed {
+	padding: 0.5em;
+}
+
+.listMedication {
+	margin-bottom: 0;
+}
+
+.panelMedication {
+	margin-bottom: 0.2em;
+	margin-top: 0.2em;
+}
+
+.panelMedicationSuspend {
+	border: solid 1px #F56C5E;
+}
+
+.panelHeaderSuspend {
+	background-color: #F56C5E !important;
+	border: solid 1px #F56C5E !important;
+}
+
+.panelCareSuspend {
+	border: solid 1px #F56C5E;
+}
+
+.panelCareHeaderSuspend {
+	background-color: #F56C5E !important;
+	border: solid 1px #F56C5E !important;
+}
+
+
+.panelMedicationTime {
+	padding: 1px;
+}
+
+.panelMedicationTime .colorBackData {
+	background-color: #ffffff;
+	font-weight: bold;
+	font-size: 0.95em;
+}
+
+.panelMedicationTime .colorBackDefault {
+	color: black;
+}
+
+.listAdministrationRecord {
+	margin-bottom: 0;
+}
+
+.timeListMedication {
+	margin: 0;
+}
+
+.timeListMedication>li {
+	text-align: center;
+	padding: 2px;
+}
+
+.divItemAdministrationRecord {
+	width: 11em;
+	/*float: left;*/
+	vertical-align: top;
+	display: inline-block;
+	border: 1px solid rgb(210, 215, 211);
+	text-align: center;
+}
+
+.itemAdministrationRecord {
+	padding: 2px;
+	position: static;
+	font-weight: bold;
+}
+
+.bodyAdministrationRecord {
+	padding: 0px;
+	min-height: 12.17em;
+    width: 100%;
+    /*overflow: hidden;*/
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.iconCommentAdminRec {
+	/*color: #000;*/
+	float: left;
+	padding-top: 0.2em;
+	padding-left: 0.5em;
+}
+
+.historyErrorMsg {
+	margin-top: 1em;
+	text-align: center;
+}
+
+/*tooltip comments Administration records*/
+.tooltipsAdmRecComments {
+	position: relative;
+	display: inline;
+}
+
+.tooltipsAdmRecComments span {
+	position: absolute;
+	/*width: 140px;*/
+	color: #000000;
+	background: #f7f7f7;
+	/*height: 30px;*/
+	line-height: 30px;
+	text-align: center;
+	visibility: hidden;
+	border-radius: 6px;
+	padding: 0px 5px;
+}
+
+.tooltipsAdmRecComments span:after {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -8px;
+	width: 0;
+	height: 0;
+	border-bottom: 8px solid #D2D7D3;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+
+.tooltipsAdmRecComments:hover span {
+	visibility: visible;
+	opacity: 1;
+	top: 30px;
+	left: 50%;
+	margin-left: -76px;
+	z-index: 999;
+}
+
+/* Report Inpatient view */
+
+.col-xs-27, .col-xs-28 {
+	float: left;
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-xs-27 {
+	width: 13.666667%;
+}
+
+.col-xs-28 {
+	width: 11.666667%;
+}
+
+/* Care view */
+
+.errorEditSlot{
+	color: #ff3b30;
+}
+
+.rowOutsideCatalogueCare{
+	margin-top: 2em;
+}
+
+.rowPatternCare{
+	margin-bottom: 2em;
+}
+
+.rowErrorCare {
+	margin-top: 1.5em;
+}
+
+.msgCareError {
+	color: #E74C3C;
+}
+
+.selectCare {
+	height: 12em !important;
+}
+
+.thTableAddCare {
+	text-align: center;
+}
+
+.thFieldCare{
+	width: 25%;
+}
+
+.thFieldPattern{
+	width: 20%;
+}
+
+.thFieldObservation{
+	width: 35%;
+}
+
+.thFieldDeleteCare{
+	width: 5%;
+}
+
+.inputCareComment{
+	width: 100%;
+}
+
+.scrollableContentCare {
+	padding: 2em 1em 0em 1em;
+}
+
+.spaceRowEditCare{
+	padding-top: 4em;
+}
+
+/* Nursing graphic view */
+.nursingTable tbody .par{
+	background-color: #ffffff;	
+}
+
+.nursingTable tbody .impar{
+	background-color: #ededed;	
+}
+
+.rowNursingTable {
+	/*margin-top: 11px;*/
+}
+
+
+.boxOptiosNursingGraphics{
+	padding-bottom: 10px;
+}
+
+/* Fixed table */
+.fixedTable {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  /*background-color: #fbfbfb;*/
+}
+
+.fixedTable .table {
+  background-color: white;
+}
+.fixedTable .table tr td,
+.fixedTable .table tr th {
+    min-width: 83px;
+    width: 90px;
+    min-height: 20px;
+    height: 20px;
+    padding: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.fixedTable-header {
+  width: auto;
+  height: 98px;
+  margin-left: 230px;
+  overflow: hidden;
+  border-bottom: 1px solid #CCC;
+  background-color: white;
+}
+
+.fixedTable-header-empty {
+  width: auto;
+  margin-left: 230px;
+  overflow: hidden;
+  border-bottom: 1px solid #CCC;
+  background-color: white;
+}
+
+.fixedTable-header-empty .emptyTable{
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.fixedTable-sidebar {
+  width: 230px;
+  height: auto;
+  max-height: 450px;
+  float: left;
+  overflow: hidden;
+  border-right: 1px solid #CCC;
+  padding-bottom: 50px;
+}
+
+.fixedTable-sidebar table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+.fixedTable-body {
+  overflow: auto;
+  width: auto;
+  height: auto;
+  max-height: 450px;
+  padding-bottom: 50px;
+}
+
+.measureParameterNoEdit {
+	color: #D62C2C;
+}
+
+.measureParameterEdit {
+	color: #000000;
+}
+
+
+.tooltipsTableNurse {
+    position: absolute;
+	display: inline;
+}
+
+.tooltipsTableNurse span {
+    position: absolute;
+    width: 190px;
+    color: #000000;
+    background: #FBFFAD;
+    /* height: 30px; */
+    line-height: 30px;
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+}
+
+.tooltipsTableNurse span:after {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	left: 90%;
+	margin-left: -8px;
+	width: 0;
+	height: 0;
+	border-bottom: 8px solid #DBDBCA;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+
+.tooltipsTableNurse:hover span {
+	visibility: visible;
+	opacity: 1;
+	top: 30px;
+	left: 50%;
+	margin-left: -180px;
+	line-height:20px;
+	z-index: 9999;
+}
+
+.tooltipsTableNurseMeasure {
+    position: relative;
+	display: inline;
+}
+
+.tooltipsTableNurseMeasure span {
+    position: absolute;
+    /*width: 30px;*/
+    color: #000000;
+    background: #FBFFAD;
+    /* height: 30px; */
+    /*line-height: 30px;*/
+    text-align: center;
+    visibility: hidden;
+    border-radius: 6px;
+}
+
+.tooltipsTableNurseMeasure:hover span {
+	visibility: visible;
+	display: block;
+	opacity: 1;
+	top: 30px;
+	width: 140px;
+	left: 10%;
+	margin-left: -70px;
+	line-height:20px;
+	z-index: 9999;
+}
+
+/* Overlay Parameters*/
+.listGroupParametersTitle{
+    font-weight: bold;
+    margin-bottom: 1px;
+    padding-bottom: 10px;
+    height: 40px;
+    border: 1px solid #ECECEC;
+    cursor: pointer;
+}
+
+.listGroupParametersItem{
+    border-bottom: none;
+}
+
+.listElementItem{
+	position: relative;
+    display: block;
+    padding: 6px 15px;
+    background-color: #FDFDFD;
+}
+
+.elementClickable{
+	cursor: pointer;
+}
+
+.listElementItem:hover{
+    background-color: #f9f9f9;
+}
+
+.listElementGroupItem{
+	position: relative;
+    display: block;
+    padding: 6px 15px;
+    background-color: #ffffff;
+}
+
+.listParametersList{
+	overflow-y: auto;
+	margin-top: 1em;
+    padding: 0px;
+    margin-top:0px;
+}
+
+.listParametersItems{
+	cursor: pointer;
+}
+
+.listParameterHeaderTitle{
+	margin-bottom: 1px;
+	overflow-y: none;
+}
+
+.actionMeasureNursingTable{
+	padding: 0px 0px;
+    font-size: 17px;
+}
+
+.tittlePrescriptionNursing {
+	font-weight: bold;
+	text-align: center;
+	padding: 0.4em;
+}
+
+.prescriptions {
+	background: rgb(247, 247, 247);
+	border-radius: 0.2em;
+	margin-right: 1em;
+	margin-left: 4em;
+	padding: 0;
+}
+
+.prescriptionDay {
+	border-top: 0px solid #DCEAEE !important;
+}
+
+.prescriptionName {
+	text-align: center;
+	padding: 0;
+}
+
+.prescriptionNameVitalSign {
+	text-align: center;
+}
+
+.divIconActionPrescriptionHeader {
+    cursor: pointer;
+    margin-left: 10px;
+    /*background-color: white;
+    color: #007aff;*/
+    color: black;
+}
+
+.divIconActionPrescription {
+	padding-left: 0.5em;
+	color: black;
+	cursor: pointer;
+}
+
+.divIconActionPrescriptionHeader:hover{
+    /*color: #ffffff;
+    background-color: #007aff;
+    border: 1px solid #007aff;*/
+}
+
+.divIconStatusPrescription {
+	padding-right: 0.5em;
+	cursor: pointer;
+}
+
+.menuActionsPrescriptions {
+	right: 0%;
+	top: inherit;
+	left: inherit;
+}
+
+.menuActionsPrescriptionsReg {
+	top: inherit;
+	left: inherit;
+}
+
+.menuStatusPrescriptions {
+	top: inherit;
+	left: inherit;
+}
+
+.statusPrescriptionCancel {
+	color: #EF4836;
+}
+
+.statusPrescriptionRed {
+	color: #EF4836;
+}
+
+.msgMedicationSuspend {
+	color: white;
+	font-size: 2em;
+	background-color: #F56C5E;
+	font-weight: bold;
+	text-align: center;
+}
+
+.divAfterMedicationSuspend {
+	background-color: #DCEAEE;
+	height: 0.2em;
+}
+
+.statusPrescriptionYellow {
+	color: #F4D03F;
+}
+
+.statusPrescriptionGreen {
+	color: #2ECC71;
+}
+
+.measurements {
+	background: rgb(247, 247, 247);
+	border-radius: 0.2em;
+	padding: 0;
+}
+
+.itemPrescriptionNursing {
+	border-top: 1px solid #ddd;
+	padding: 0.5em;
+}
+
+.trTableMeasurements {
+	border-top: 1px solid #ddd;
+}
+
+.tdTableMeasurements {
+	padding: 0.5em;
+	text-align: center;
+	height: 2.5em;
+}
+
+.borderTableNursing {
+	border-right: 1px solid #ddd;
+}
+
+.msgNursingError {
+	margin-top: 1em;
+	padding: 0.5em;
+	background-color: #D91E18 !important;
+}
+
+.daysNursingTable {
+	text-align: center;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+/* overlay Add Measures */
+
+.measuresGroup{
+	padding-top: 20px;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 16px;
+    color: #007AFF;
+}
+
+.axis {
+	shape-rendering: crispEdges;
+}
+
+.x.axis line {
+	stroke: lightgrey;
+}
+
+.x.axis .minor {
+	stroke-opacity: .5;
+}
+
+.x.axis path {
+	/*stroke: none;*/
+	
+}
+
+.x.axis text {
+	font-size: 14;
+}
+
+.y.axis line, .y.axis path {
+	fill: none;
+	stroke: #000;
+}
+
+
+.y.axis text {
+	font-size: 14;
+	fill: currentColor;
+}
+
+
+
+/* SURGERY VIEW */
+.divSurgery{
+	height: 3.1em;
+	/*width: 100%;
+	padding-right: 4px;*/
+	background-color: #D2D7D3;
+	padding-top: 0.2em;
+	z-index: -1;	
+}
+
+.scrollableSurgery {
+	height: auto;
+	top:6.8em;
+	bottom:3.5em;
+}
+
+.filterObservation {
+	color: #F1A9A0;
+}
+
+.filterSurgery {
+	float: right;
+	font-size: 1.3em;
+	cursor: pointer;
+}
+
+.recordPatientSurgery {
+	font-weight: bold;
+	color: #007aff;
+	cursor: pointer;
+}
+
+.noRecordPatientSurgery {
+	color: green;
+	cursor: default !important;
+}
+
+.surgeryNeedsBlood {
+	color: red;
+	font-weight: bold;
+}
+
+.surgeryRoom {
+	color: green;
+	font-weight: bold;
+}
+
+.tableContentSurgery {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+
+.tableContentSurgery th{
+	float:left;
+	text-align: center;
+}
+
+.tableContentSurgery td{
+	float:left;
+	text-align: center;
+}
+
+.surgeryTableHour			{ width: 5%;}
+.surgeryTableStatus			{ width: 8%;}
+.surgeryTablePatient		{ width: 12%;}
+.surgeryTableRecordId		{ width: 7%;}
+.surgeryTableDoctor			{ width: 10%;}
+.surgeryTableMedProcedure	{ width: 15%;}
+.surgeryTableSurgeryProcedure{width: 15%;}
+.surgeryTableRemark			{ width: 10%;}
+.surgeryTableAlerts			{ width: 7%;}
+.surgeryTableNeeds			{ width: 6%;}
+.surgeryTableReason			{ width: 5%;}
+.surgeryTableRea			{ width: 5%;}
+.surgeryTableDepartment		{ width: 10%;}
+.surgeryTableRoomType		{ width: 5%;}
+.surgeryTableRoom			{ width: 5%;}
+.surgeryTablePlannedDischarge{width: 5%; display:none;}
+.surgeryTableDischarge		{ width: 5%; display:none;}
+.surgeryTableAction			{ width: 5%;}
+
+.surgeryRemarkColor			{color:#f49ac2;}
+.surgerytablelistaction{
+	float:left;
+	overflow:visible!important;
+	white-space:normal!important; 
+	text-overflow: initial!important; 
+	text-align: center;
+}
+
+.divContentSurgery {
+	top: 13.8em;
+	height: auto;
+	margin-bottom:3.5em;	
+}
+
+.tdHourCANCEL {
+	background-color: #D91E18 !important;
+	color: white;
+	font-weight: bold;
+}
+
+.tdHourIN_THE_PROCESS {
+	background-color: #87D37C !important;
+	color: white;
+	font-weight: bold;
+}
+
+.tdHourSTART {
+	background-color: #F7CA18 !important;
+	color: white;
+	font-weight: bold;
+}
+
+.tdHourPENDING {
+	background-color: white !important;
+	color: black;
+	font-weight: bold;
+}
+
+.tdHourDONE {
+	background-color: #007aff !important;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tdHourPARTIAL_DONE {
+	background-color: #77b8ff!important;
+	color: #fff;
+	font-weight: bold;
+}
+
+.surgeryAccess{
+	color: #007aff;
+	cursor:pointer!important;
+}
+
+.surgeryAccess:hover{
+	background-color: #f5f5f5;		
+}
+
+.overlayScheduledSurgery{
+	top:3.5em;
+	height: auto;
+	margin-bottom:2em;
+}
+
+.overlayContentScheduledSurgery{
+	height: auto;
+	margin-top:2em;
+}
+
+.tableContentSurgeryScheduled {
+	text-align: center;
+	background-color: white;
+	height: auto;
+	margin:0;
+}
+
+.tableContentSurgeryScheduled th{
+	float:left;
+	text-align: center;
+}
+
+.tableContentSurgeryScheduled td{
+	float:left;
+	text-align: center;
+}
+
+.tableContentSurgeryListblockText{
+	width: 96%;
+}
+
+.listblockTextHour{
+	color: #FF6347;
+}
+
+.tableContentSurgeryScheduledblockText	{	width: 90%;}
+.tableContentSurgeryScheduledLongTime	{	width: 10%;}
+.tableContentSurgeryScheduledPatientName{	width: 10%;}
+.tableContentSurgeryScheduledRecordId	{	width: 10%;}
+.tableContentSurgeryScheduledPayor		{	width: 15%;}
+.tableContentSurgeryScheduledSurgeryProcedure{	width: 15%;}
+.tableContentSurgeryScheduledRoomType	{	width: 5%;}
+.tableContentSurgeryScheduledDepartment	{	width: 10%;}
+.tableContentSurgeryScheduledStatus		{	width: 10%;}
+.tableContentSurgeryScheduledDoctor		{	width: 15%;}
+
+.rowDateScheduled{
+	background-color:#ccccff;
+	color:#000000;
+	text-align: left!important;
+}
+
+.divContentSurgeryScheduledy {
+	top:9.5em;
+	height: auto;
+	margin-bottom:3.5em;
+}
+
+.divContentDtestsPending {
+	top:10.5em;
+	height: auto;
+	margin-bottom:3.5em;
+}
+
+.bgSurgAbsent{
+	background-color: #F4FA58;
+}
+.bgSurgOutgoing{
+	background-color: #ffc04c;
+}
+.bgSurgDouble{
+	background-color: #a5d2a5;
+}
+.bgSurgAssistantship{
+	background-color: #ffc1c1;
+}
+
+.blockTextScheduled {
+	background-color: #FF6347;
+    color: #FFFFFF;
+}
+
+/** CONTENT DIAGNOSTIC TEST */
+
+/* List View */
+.dTestsViewTableAction	{ width: 5%; }
+.dTestsViewTableHour	{ width: 5%; }
+.dTestsViewTablePatient	{ width: 14%; }
+.dTestsViewTableStudy	{ width: 10%; }
+.dTestsViewTableRemark	{ width: 12%; }
+.dTestsViewTableReportDate	{ width: 10%; }
+.dTestsViewTableLot		{ width: 5%; }
+.dTestsViewTablePayor	{ width: 15%; }
+.dTestsViewTableRecordId{ width: 9%; }
+.dTestsViewTableRoom    { width: 5%; }
+.dTestsViewTableStatus	{ width: 10%; }
+
+/* List Pending View */
+.dTestsPendingTableDate		{ width: 10%; }
+.dTestsPendingTablePatient	{ width: 20%; }
+.dTestsPendingTableRecordId	{ width: 10%; }
+.dTestsPendingTableApplied	{ width: 20%; }
+.dTestsPendingTableRemark	{ width: 20%; }
+.dTestsPendingTableRoom		{ width: 10%; }
+.dTestsPendingTableStatus	{ width: 10%; }
+
+/* END CONTENT DIAGNOSTIC TEST */
+
+
+/* REFERRALS VIEW */
+.referralSelects {
+	text-align: left;
+}
+
+.referralOptions {
+	display: inline;
+}
+
+.referralDate {
+	line-height: 1.42857143 !important;
+	border-style: inset;
+	width: 11em !important;
+	display: inline !important;
+	height: 2em !important;
+}
+
+.referralTime {
+	line-height: 1.42857143 !important;
+	border-style: inset;
+	width: 7em !important;
+	display: inline !important;
+	height: 2em !important;;
+}
+
+.referralSecondRow {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.radioXconsult {
+	display: inline !important;
+	width: 1em !important;
+	height: 1em !important;
+}
+
+.referralPrescription {
+	display: inline !important;
+	resize: none;
+}
+
+.paddingTopLabelReferral{
+	padding-top:0.5em;
+}
+
+/* PRESCRIPTION VIEW */
+
+.presInput {	
+	height: 2em;
+}
+
+.prescriptionCell {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	float: left !important;
+	margin-top: 1em
+}
+
+.prescriptionHighlight {
+	background-color: lightblue !important;
+	cursor:pointer;
+}
+
+.prescriptionClicked {
+	background-color: lightgrey !important;
+}
+
+.presDelButton {
+	float: right;
+	margin-top: 0.2em
+}
+
+.presHeadRow {
+	float: left !important;
+}
+
+.presTable {
+	text-align: left;
+}
+
+.presFirstRow {
+	padding-top: 10px
+}
+
+.presMiddleRow {
+	padding-top: 40px
+}
+
+.presButtonRow {
+	padding-top: 1em;
+}
+
+.presLastRow {
+	padding-top: 40px;
+}
+
+.presBottomRow {
+	padding-bottom: 40px;
+}
+
+
+/* PROCEDURES VIEW */
+
+.listProcedureList {	
+	overflow: hidden;
+	overflow-y: auto;
+	margin-top: 1em;
+	padding: 0;
+}
+
+.procSelectedList {	
+	max-height: 250px;
+}
+
+.btnSearchOtherTest{
+	margin-top: -6px;
+}
+	
+.procBoxList {
+	max-height: 365px;
+    overflow-y: auto;
+}
+
+.listProcedureListContentSearch{
+	padding: 6px 0 6px 0;	
+}
+
+.listProcedureContentRow2{
+	font-weight: lighter;
+	color: rgb(147, 147, 147);
+	font-size: 0.8em;	
+}
+
+.listDiagnosticList>li:not (:first-child ){
+	cursor: pointer;
+}
+
+.btnAddNewPrescription{
+	margin: 1em;
+}
+
+.tableRowHeader {
+	font-weight: bold;
+    border-style: solid;
+    border-width: thin;
+    border-bottom-width: medium;
+    border-color: lightgrey;
+    background-color: rgb(247, 247, 247);
+    height: 3.3em;
+}
+
+.tableRow {
+	border-style: solid;
+    border-width: thin;
+    border-color: #F7F7F7;    
+    background-color: #fdfdfd; 	
+}
+
+.tableRow:hover{
+	background-color: #f9f9f9;
+}
+
+.procItemBtn {
+	
+	display: block; 
+	margin-top: 10px;
+}
+
+.procRight {
+	float: right;
+}
+
+.procCenter {
+	 text-align:center;
+}
+
+.procedureCell {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 12px;	
+}
+
+.procedureHeadRow {
+
+}
+
+.procArrow {	
+	display:block;
+	width:30px; 
+	font-size: 50px; 
+	cursor:pointer;
+}
+
+.procGreen {
+	color: green;
+}
+
+.procRed {
+	color: red;	
+}
+ 
+ 
+ 
+/******** COLONOSCOPY VIEW ************/
+
+.colonoContainer {
+	padding-top: 50px; 
+	padding-bottom: 50px; 	
+}
+
+.colonoRight {
+	float: right;
+}
+
+.colonoNone {
+	float: none;
+}
+
+.colonoLabel {
+	margin-top: 10px;
+}
+
+.colonoTextArea {	
+	resize: none;
+}
+
+.colonoCheckBox {
+	transform: scale(1.5); 
+	-webkit-transform: scale(1.5); 
+	margin-right:10px !important;
+}
+
+/******** OVERLAY SURGICAL PROTOCOL ************/
+
+.labelSedation{
+	padding-top: 0.5em;
+}
+
+/******** GENERIC OVERLAY************/
+
+/** No cambiar, afecta para todos los overlay **/
+
+.genericScrollable{
+	padding: 2em 0em 2em 0em !important;
+	height: 88%;
+}
+
+.genericScrollableGraphics{
+	padding: 2em 0em 2em 0em !important;
+	height: 94%;
+}
+
+
+.checkboxGeneric{
+	transform: scale(0.7);
+}
+
+.infoPatientOverlay{
+	/*width: 2.5em;*/
+	height: 2.5em;
+	transition: width 1s;
+	-webkit-transition: width 1s;	
+	
+}
+
+.infoOnPatientOverlay {
+    width: 35em;
+    height: 3.6em;
+    border: 1px solid #007aff;
+	border-radius: 2em;
+	background-color: white;
+	font-size: 0.9em;
+	padding-top: 0.5em;
+	margin-left: 2.5em;
+}
+
+.iconInfoPatient{
+	padding: 0.3em 0.3em 0.4em 0.3em;
+	cursor: pointer;
+	border: 1px solid #007aff;
+	border-radius: 20px;
+}
+
+.iconInfoOnPatient{
+	float: left;
+	padding: 0.5em;
+	border: none;
+}
+
+.contentInfoPatientOverlay{
+	display:none;
+	font-size: 0.8em;
+}
+
+.contentInfoOnPatientOverlay{
+	display:initial;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.iconTitleOverlayGeneric {
+	padding-right: 0.5em;
+	vertical-align: middle;
+	color: #007aff;
+}
+
+.tittleOverlayGeneric{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.genericScrollableContent {
+	padding: 1em 1em 0em 1em;
+}
+
+.rowGeneric {
+	padding-bottom: 1.5em;
+}
+
+.row-border-sx{
+	margin-top: 5px;
+}
+
+.row-border-md{
+	margin-top: 15px;
+}
+
+.row-border-lg{
+	margin-top: 25px;
+}
+
+.btnGenericOverlay {
+	font-weight: bold;
+}
+
+.divElementGeneric{
+	padding-bottom: 0.5em;
+}
+	
+/******** INPATIENT VIEW ************/
+.btnResSelectInpat{
+	width: 14em;
+	text-align: left;
+}
+.tableContentInpatient {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+.divContentInpatientLevel-0{
+	top:12em;
+}
+.divContentInpatientLevel-1{
+	top:12em;
+}
+.divContentInpatientLevel-2{
+	top:13.4em;
+}
+
+.btnSmInpatient{
+	padding: 5px 8px !important;
+}
+
+.divContentInpatient {
+	
+	height: auto;
+	margin-bottom:3.5em;
+
+}
+
+.inPatientSearchButton {	
+	border-radius: 6px;
+  	border-style: inset;
+  	color: #fff;
+  	background-color: rgba(6, 6, 6, 0.55);
+  	border-color: #B5B5B5;
+  	font-size: 1em;
+}
+
+.inPatientZoomButton {	
+	padding: 2px;
+  	font-size: 1.5em;
+}
+
+.inPatientViewButton {
+  margin-top: 0.3em;	 
+  padding-top: 0.2em;	 
+  padding-left: 0.5em;	  
+  padding-right: 0.5em;	   
+  padding-bottom: 0em
+}
+.tableContentInpatient {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+
+.tableContentInpatient th{
+float:left;
+text-align: center;
+}
+
+.tableContentInpatient td{
+float:left;
+text-align: center;
+}
+
+.inpatienttablelistsmall2{
+	width: 2%;
+}
+
+.inpatienttablelistsmall3{
+	width: 3%;
+}
+
+.inpatienttablelistsmall4{
+	width: 4%;
+}
+
+.inpatientTableListPayor { width: 13%; }
+.inpatientTableListPayorNurse { width: 10%; }
+.inpatientTableListProcess { width: 10%; }
+
+.inpatientTableListDoctor { width: 8%; }
+.inpatientTableListDoctorNurse { width: 12%; }
+.inpatientTableListDoctorNZoom { width: 15%; }
+
+.inpatientTableListReferralDatePhysio { width: 4%; }
+
+.inpatientTableListDoctorN2 { width: 15%; }
+.inpatientTableListDoctorN2Nurse { width: 15%; }
+
+.inpatientTableListDischargePlanned { width: 7%; }
+.inpatientTableListDischargePlannedNurse { width: 8%; }
+.inpatientTableListDischargePlannedPhysio { width: 4%; }
+
+.inpatientTableListDischargePlannedN2 { width: 10%; }
+.inpatientTableListDischargePlannedN2 { width: 10%; }
+
+.inpatientTableListInBQ {
+	background-color: #FCFF9C !important;
+}
+
+
+.inpatienttablelistsmall9{
+	width: 9%;
+}
+
+.inpatienttablelistsmall12{
+	width: 12%;
+}
+
+.inpatienttablelistsmall{
+	width: 5%;
+}
+
+.inpatienttablelistmiddle{
+	width: 10%;
+}
+.inpatienttablelistlong{
+	width: 15%;
+}
+
+.inPatientCellSmall {
+	width: 5%;
+	text-align: center;
+}
+	
+.inPatientCellMiddle {
+	width: 10%;
+	text-align: center;
+}
+
+.inPatientCellLong {
+	width: 15%;
+	text-align: center;
+}
+
+.inPatientCellAction {
+	width: 5%;
+	text-align: center;
+}
+
+.inPatientHeaderSmall {
+	width: 5%;
+	text-align: center;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	overflow:hidden!important; 
+	white-space:nowrap; 
+	text-overflow: ellipsis; 	
+}
+	
+.inPatientHeaderSmall {
+	width: 5%;
+	text-align: center;
+	padding-right: 0px !important;
+	padding-left: 0px !important;	
+	overflow:hidden!important; 
+	white-space:nowrap; 
+	text-overflow: ellipsis; 
+}	
+.inPatientHeaderMiddle {
+	width: 10%;
+	text-align: center;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	overflow:hidden!important; 
+	white-space:nowrap; 
+	text-overflow: ellipsis; 
+}
+
+.inPatientHeaderLong {
+	width: 15%;
+	text-align: center;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	overflow:hidden!important; 
+	white-space:nowrap; 
+	text-overflow: ellipsis; 	
+}
+
+.inPatientHeaderAction {
+	width: 5%;
+	text-align: center;
+	padding-right: 0px !important;
+	padding-left: 0px !important;	
+}
+
+.inPatientCellDischarge {	
+	padding-left: 3em !important;	
+}
+	
+.inPatientCellPadless {	
+	padding-left: 0px !important;
+	padding-right: 0px !important;	
+}
+		
+.inPatientWhite {
+	background-color: #ffffff
+}	
+
+.inPatientLightGrey {
+	background-color: #ececec 	
+}		
+
+.inPatientDarkGrey {
+	background-color: lightgrey 
+}
+.inPatientBeige {
+	background-color: #FFE4B5; 
+}		
+
+.inPatientName {
+	cursor: pointer	
+}
+
+.inPatientBox-container{
+	display:block;
+	float:left;
+	margin-left:2em;
+	
+	}
+ .inPatientBox-panel{
+
+ 	display:inline-block;
+ 	float:left;
+ 	margin: 0.75em;
+	padding: 0.3em;
+ 	border-top: 2px solid #3498db;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.40);
+	-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.40);
+	box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.40);
+ }
+ 
+ .reportDataInpatient{
+ 	width: 98%;
+ }
+ 
+.inPatientBox-body {
+	width: 20em;
+	height:12em;
+}
+.inPatientBox-footer {
+	
+	background-color:transparent;
+}
+.inPatientBox-icon{
+	margin-top:0.3em;
+	height: 1.5em;
+}
+.inPatientBoxSmall {
+	width: 12em; 
+	height: 8em; 
+	float: left; 
+	display: inline;	
+
+}
+.inPatientBoxMedium {
+	width: 16em; 
+	height: 12em; 
+	float: left; 
+	display: inline;	
+
+	
+}
+.inPatientBoxLarge {
+	width: 20em; 
+	height: 17em; 
+	float: left; 
+	display: inline;
+	border-radius:5px;	
+
+}
+
+.inPatientBoxLargeNurseView {
+	width: 21em; 
+	height: 15em; 
+	float: left; 
+	display: inline;
+	border-radius:5px;	
+
+}
+
+.inPatientFontSmall {
+ 	font-size: 10px; 	
+}
+
+.inPatientFontMedium {
+ 	font-size: 13px; 	
+}
+
+.inPatientFontLarge {
+ 	font-size: 18px; 	
+}
+.inPatientFontLargeSmall {
+ 	font-size: 15px;
+}
+
+
+.inPatientRoom {
+	width: 31%; 
+	height: 50%; 
+	float: left; 
+	display: inline;	
+	margin: 1em;
+	padding: 0em;
+	overflow: auto;
+	border-style: solid;
+    border-width: thick;
+    border-color: white;
+    
+}
+
+.inPatientListButton {
+	float: right;
+}
+
+.inPatientBoxLabel {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 0.5em;
+  color: white;
+}
+
+.inPatientMedicated {	 
+         color: Red;	
+         	cursor:pointer; 
+ }	 
+ 	 
+ .inPatientCares {	 
+         color: Pink;
+         	cursor:pointer;	 
+ }
+ 
+.inPatientRight {
+	float: right;
+}
+
+.inPatientViewContainer {
+	height: auto;
+	top:6.8em;
+	bottom:3.5em;
+}
+
+
+
+.inPatientSearchButtonContainer {
+	margin-top: -0.3em;
+}
+
+.emergencySearchButtonContainer {
+  margin-top: 5px;
+}
+
+ .inPatientNavRowItems {	 
+    margin-top: 0.3em;	 
+ }
+
+.inpatientAdmittedRecent {
+	color: orange;
+}
+
+.inPatientPatientSelectItems  {	
+	padding-left: 1em;	       
+    padding-right: 1em	 
+ }	 
+ 	 
+.inPatientCaret {	 
+	margin-left: 1em !important;    	 
+}
+
+
+.inpatientTransferredRecent {
+	color: plum;
+}
+
+.inpatientRecentNotes {
+	color: MediumPurple;
+}
+
+.inpatientRecentResults {
+	color: DarkSeaGreen;
+}
+
+.inpatientPlannedSurgery {
+	color: GoldenRod;
+}
+
+.inPatientSlideBar {
+	display: inline; 
+	font-weight: bold;
+}
+
+.inPatientInLine {
+	display: inline;
+}
+
+.inPatientBedRoom {
+	float:left;	
+	background-color: white !important;
+}
+
+.inPatientBedRoomContainer {
+	width:20em;
+}
+
+.inPatientHover:hover {
+	background-color: lightblue !important;
+}
+
+.inPatientPlantClicked {
+	background-color: lightgrey !important;
+}
+
+.inPatientDisabledCheckBox {
+	display: none;
+}
+
+.inPatientEnabledIconCheckBox {
+	display: inline !important;
+}
+
+.fakeCheckBox {	 
+         display: none;  	 
+         margin-left: 12px !important;	 
+         margin-right:1px !important;    	 
+ }	 
+ 	 
+ .inPatientCheckBox {	 
+         float: left;	 
+         margin-top:8.5px !important;	 
+         margin-left:12px !important;	 
+         margin-right:4px !important;	 
+ }	 
+ 	 
+ .inPatientRoomSelectButton {	 
+         border-style: none;	 
+         background-color: white;	 
+ }	 
+ 	 
+ .inPatientRoomSelectName {	 
+         display: inline;	 
+         color:black !important;	 
+         text-decoration:none !important	 
+ }	 
+ 	 
+ .inPatientRoomSelectArrow {	 
+         padding-left: 2em	 
+ }	 
+ 	 
+ .inPatientDropdownLeft {	 
+         left:100px	 
+ }	 
+ 	 
+ .inPatientHalfLine {	 
+         margin-top: 0.5em;	 
+ }	 
+ 	 
+ .inPatientLabelSmall {	 
+         margin-top: 0.5em;	 
+ }	 
+ 	 
+ .inPatientLabelMedium {	 
+         margin-top: 0.25em;	 
+         font-size: 1.5em;	 
+ }	 
+ 	 
+ .inPatientFilterSliderContainer {	 
+         position: absolute;	 
+         float: left;	 
+         margin-left:100px      	 
+ }	 
+ 	 
+ .inPatientFilterSlider {	 
+         height: 200px;	 
+         width: 100px;	 
+         -webkit-appearance: slider-vertical    	 
+ }	 
+ 	 
+ .inPatientRisk {	 
+         color: blue;	 
+         cursor:pointer;
+ }
+ 
+ .inPatientAllergies {	 
+         color: red;	 
+         cursor:pointer;
+ }	 
+ 	 
+ .inPatientExams {	 
+         color: green;	 
+         cursor:pointer;
+ }
+
+ .inPatientExams.orchid { color: orchid; } 
+ .inPatientExams.blue { color: blue; }
+ .inPatientExams.green { color: green; } 
+ .inPatientExams.yellow { color: yellow; }
+ .inPatientExams.red { color: red; }	
+ .inPatientExams.aqua { color: aqua; }		 
+ 	 
+ .inPatientMedication {	 
+		cursor:pointer;
+    	color: orange;	 
+ }
+ 
+ .inPatientSizeButton {	 
+	     margin-top: 0.3em;	     
+	     padding-top: 0.2em;	      
+         padding-left: 0.5em;	 
+         padding-right: 0.5em;	 
+         padding-bottom: 0em;	 
+         height:2.5em;	 
+         width:3em	 
+ }
+ 
+.inPatientButtonHighlight {	 
+   color: #fff !important;	 
+   background-color: rgba(6, 6, 6, 0.55) !important;    	 
+}
+
+.inPatientAlert {
+	text-align: center;
+}
+
+.inPatientFilterSelected {
+	opacity: 0.5;
+}
+
+.inPatientSelectRoomsContent{
+	padding-bottom: 25px;
+	padding-top: 10px;	
+}
+
+
+.inPatientSelectRoomsContent > div{
+  border-radius: 5px;
+  border: 1px solid #ABABAB;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+
+.inPatientSelectRoomsContent ul{
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;		
+}
+
+.inPatientSelectRoomsContent ul > li{
+	padding: 5px 0 5px 0;	
+}
+
+.inPatientSelectRoomsContent ul > li:hover{
+	background: #eeeeee;	
+}
+
+.inPatientSelectRoomsContent .elementRoom{
+	float: right;
+	width: 80%;
+	cursor: pointer;
+}
+
+.inPatientSelectRoomsContent .elementBed{
+	float: right;
+	width: 80%;
+	cursor: pointer;
+}
+
+.inPatientSelectRoomsContent .elementSign{
+	float: right;
+	width: 5%;
+	cursor: pointer;
+}
+
+.inPatientSelectRoomsContent .active{
+	background: #eeeeee;
+}
+
+.inPatientSelectRoomsContent .elementRoom a{
+	text-decoration: none;
+}
+
+.inPatientSelectRoomsContent li > div > input{
+	cursor: pointer;
+}
+
+.inPatientSelectRoomsContent .elementRoom a:link {
+	color: #555555;
+}
+
+
+/* STUDY VIEW */
+.divContentStudy {
+	top:13.8em;
+	height: auto;
+	margin-bottom:3.5em;
+
+}
+
+.divHeaderStudyIcons {
+    height: 3.1em;
+    background-color: #D2D7D3;
+    padding-top: 0.2em;
+    text-align: center;
+}
+
+.studyLabelContainer{
+	height: auto;
+	top:7.2em;
+	bottom:3.5em;
+}
+
+.studyTableAction	{ width: 6%; }
+.studyTablePatient	{ width: 22%; }
+.studyTableGender	{ width: 8%; }
+.studyTableAge		{ width: 6%; }
+.studyTableRecord	{ width: 7%; }
+.studyTableDateStudy{ width: 13%; }
+.studyTableReason 	{ width: 20%; }
+.studyTableStatus	{ width: 18%; }
+
+.textBottomIconStudy{
+	margin-top: 1.7em;
+	font-size: 0.8em;
+	
+}
+.tableContentStudy {
+	text-align: center;
+	background-color: white;
+	height: auto;
+}
+
+.tableContentStudy th{
+	overflow:hidden!important; 
+	white-space:nowrap; 
+	text-overflow: ellipsis; 
+	text-align: center;
+}
+
+.tableContentStudy td{
+float:left;
+overflow:hidden; 
+/*white-space:nowrap;*/ 
+/*text-overflow: ellipsis;*/ 
+text-align: center;
+}
+.studytablelistaction{
+float:left;
+overflow:visible!important;
+white-space:normal!important; 
+text-overflow: initial!important; 
+text-align: center;}
+
+/* PHYSIOTHERAPY VIEW */
+.divContentPhysiotherapy{
+	top:13.8em;
+	height: auto;
+	margin-bottom:3.5em;
+}
+.divContentPhysiotherapyTable{
+	top:13.8em;
+	height: auto;
+	margin-bottom:3.5em;
+}
+.divContentPhysiotherapyLabel{
+	top:7.1em;
+	height: auto;
+	margin-bottom:3.5em;
+}
+
+.tableContentPhysiotherapy {
+
+	background-color: white;
+	height: auto;
+}
+
+.tableContentPhysiotherapy th{
+float:left;
+
+}
+
+.tableContentPhysiotherapy td{
+float:left;
+}
+
+/* columns physio table (LG)*/
+.tablePhysiotherapyHour			{ width: 5%; }
+.tablePhysiotherapyPatient		{ width: 10%;}
+.tablePhysiotherapyRecord		{ width: 5%; }
+.tablePhysiotherapyPayor		{ width: 10%;}
+.tablePhysiotherapyRemark		{ width: 15%;}
+.tablePhysiotherapyTreatments	{ width: 15%;}
+.tablePhysiotherapyProccess		{ width: 15%;}
+.tablePhysiotherapyClinician	{ width: 10%;}
+.tablePhysiotherapyStatus		{ width: 10%;}
+.tablePhysiotherapyAction		{ width: 5%; }
+
+
+.scrollablePhysiotherapy{
+	height: auto;
+	top:7.1em;
+	bottom:3.5em;
+}
+.allowPatientPhysiotherapy{
+	color: #007aff !important;
+	
+}
+.allowPatientPhysiotherapy:hover {
+	background-color: #f5f5f5;
+	cursor:pointer !important;
+}
+.disallowPatientPhysiotherapy{
+	color: green;
+	cursor: default !important;
+}
+.tabSearchPhysiotherapy{
+	margin-bottom: 3.2em;
+	font-size: 12px;
+}
+.physiotherapyLast{
+	background-color: #FFFF4C !important
+}
+.physiotherapyFirst{
+	background-color: #00FF7F !important
+}
+.physiotherapyWarning{
+	background-color: #ffd27f !important
+}
+.physioOverlayHeader{
+    top: 1.5em;
+    height: auto;
+    margin-bottom: 1.5em;
+}
+
+.physioCalendarHeaderTable{
+    top: 6em;
+}
+.physioCalendarBodyTable{
+    top: 9em;
+    height: auto;
+    margin-bottom: 5em;
+}
+.physioOverlayBody{
+    top: 6em;
+    height: auto;
+    margin-bottom: 5em;
+}
+.physioOverlayBodyScroll{
+    top: 5em;
+    height:auto;
+    padding-left:1em;
+    margin-bottom: 0em,1em,0em,1em;
+    bottom:5em;
+    
+}
+.physioOverlayFooter{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color:#F7F7F7;
+}
+
+.tableCalendarPhysioAction		{ width: 5%;}
+.tableCalendarPhysioDate		{ width: 15%;}
+.tableCalendarPhysioRemark		{ width: 20%;}
+.tableCalendarPhysioTreatment	{ width: 20%;}
+.tableCalendarPhysioStatus		{ width: 10%;}
+.tableCalendarPhysioPayor		{ width: 15%;}
+.tableCalendarPhysioProfesional	{ width: 15%;}
+.slotHourCalendarPhysio 		{ min-width:3em; padding: 1px;}
+.slotDayCalendarPhysio 			{ max-width:2em; padding: 1px;}
+.slotDateCalendarPhysio 		{ min-width:5.5em; padding: 1px;}
+.slotPixel						{ border: 1px; padding: 1px; margin: 1px; font-weight: bold;}
+
+
+.radioButtonsCreateProcessDays{
+	padding-left:0px;
+}
+.listPatientSearchForProcess{
+	text-align: center;
+}
+.rowMargin{
+	margin-bottom:20px;
+}
+.inputFilterPayors{
+	float:right;
+	background-color:#fff;
+	border:1px solid lightgrey !important;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.scrollable-menu-filterCR {
+    height: auto;
+    max-height: 300px;
+    overflow-x: hidden;
+}
+
+.tablePhysioResume{
+	width: 12.5%;
+}
+
+.tablePhysioResumeTreat{
+	width: 9%;
+}
+
+.tablePhysioResumeOutpatient{
+	width: 12.5%;
+}
+
+
+.divContentPhysioResumeSession {
+    top: 12.4em;
+    height: auto;
+    margin-bottom: 3.5em;
+}
+.tableContentPhysioResume 				{background-color: white;}
+.tableContentPhysioResume th			{float:left}
+.tableContentPhysioResume td			{float:left}
+
+.tablePhysioResumeSessionDate 			{width: 10%; padding-left: 2em!important;}
+.tablePhysioResumeSessionPatient 		{width: 15%}
+.tablePhysioResumeSessionReason 		{width: 15%}
+.tablePhysioResumeSessionTreatment 		{width: 15%}
+.tablePhysioResumeSessionPayor 			{width: 10%}
+.tablePhysioResumeSessionRecordId 		{width: 5%}
+.tablePhysioResumeSessionStatus 		{width: 15%}
+.tablePhysioResumeSessionClinician 		{width: 15%}
+
+.tablePhysioResumeTreatmentInitDate		{width: 8%; padding-left: 2em!important;}
+.tablePhysioResumeTreatmentEndDate		{width: 10%;}
+.tablePhysioResumeTreatmentPatient		{width: 18%;}
+.tablePhysioResumeTreatmentRecordId		{width: 5%;}
+.tablePhysioResumeTreatmentPatology		{width: 19%;}
+.tablePhysioResumeTreatmentPayor		{width: 18%;}
+.tablePhysioResumeTreatmentCompleted	{width: 5%;}
+.tablePhysioResumeTreatmentCancelled	{width: 5%;}
+.tablePhysioResumeTreatmentOthers		{width: 7%;}
+.tablePhysioResumeTreatmentClinician	{width: 10%;}
+.tablePhysioResumeTreatmentCalendar		{width: 5%;}
+
+.tablePhysioResumeOutpatientDate		{width: 10%; padding-left: 2em!important;}
+.tablePhysioResumeOutpatientPatient		{width: 15%;}
+.tablePhysioResumeOutpatientRecordId	{width: 10%;}
+.tablePhysioResumeOutpatientType		{width: 15%;}
+.tablePhysioResumeOutpatientPayor		{width: 10%;}
+.tablePhysioResumeOutpatientReason		{width: 15%;}
+.tablePhysioResumeOutpatientClinician	{width: 10%;}
+.tablePhysioResumeOutpatientStatus		{width: 10%;}
+.tablePhysioResumeOutpatientAction		{width: 5%;}
+
+.tablePhysioResumeGroupByPatientSession_patient		{width: 20%;}
+.tablePhysioResumeGroupByPatientSession_sessions	{width: 10%;}
+.tablePhysioResumeGroupByPatientSession_department	{width: 20%;}
+.tablePhysioResumeGroupByPatientSession_payor		{width: 20%;}
+.tablePhysioResumeGroupByPatientSession_recordId	{width: 10%;}
+.tablePhysioResumeGroupByPatientSession_proccess	{width: 20%;}
+
+/* PATIENT MANAGER VIEW */
+.formSearchPatientManager {
+	background-color: white!important;
+	padding: 1em;
+}
+.scrollablePatientManager{height: auto; top: 7.1em; bottom: 3.5em;}
+.scrollablePatientManagerEdit{bottom: 8em!important;}
+
+/* CONTENT SCANNING */
+.divContentScanning{
+	top: 12.4em;
+    height: auto;
+    margin-bottom: 3.5em;
+}
+
+.tableContentScanning {
+	background-color: white;
+}
+
+.tableContentScanningIndex 	{width: 10%;}
+.tableContentScanningHour 	{width: 20%;}
+.tableContentScanningName 	{width: 50%;}
+.tableContentScanningRecord	{width: 20%;}
+
+/*************************** Generic Style Menu Bar *********************************************/
+.menu-group-icon{
+	float:right;
+	margin: 0.2em 0.2em 0em 0.2em;
+	display:block;
+	padding:0.1em;
+}
+.menu-group-icon-left{
+	float:left;
+	margin: 0.2em 0.2em 0em 0.2em;
+	display:block;
+}
+
+.shownumber{
+	margin-top: 6px;
+}
+
+.shownumber2Line {
+	margin-top: 11px;
+}
+
+.boxInputSearch2Line {
+	width: 15em;
+}
+
+.search-control{
+	border: 1px solid #ccc;
+	margin-top: -2px;
+}
+
+.menu-icon{
+	width:2.5em;
+	height:2.5em;
+	float:right;
+	display:block;
+	padding: 0.1em;
+	text-align:center;
+	margin-right:0.1em;
+	border-radius:0.4em;
+	cursor:pointer;
+}
+
+.disabled-icon{
+	color:#949494;
+	cursor:no-drop;
+}
+
+.hidden-icon{
+	display: none;
+}
+
+.menu-icon-active{
+background-color: rgba(6, 6, 6, 0.55) !important;
+ color: #fff !important;
+
+}
+
+.menu-group-filter{
+	display:inline-block;
+	float:right;
+	padding-top:0.4em;
+	margin: 0.1em 0.25em 0em 0.25em;	
+}
+
+.button-search-icon{
+	border:none;
+	width:8em;
+	background-color: transparent;
+	overflow:hidden; 
+	white-space:nowrap; 
+	text-overflow: ellipsis;
+}
+
+.button-search-icon:focus{
+	outline: 0;
+}
+	
+.button-search{
+	border:1px solid white;
+	padding: 0.1em 1em 0.1em 1em;
+	border-radius:0.9em; 
+	margin-top:-0.2em;
+}
+
+.activeFilter{
+	float: right;
+	margin-top: -15px;
+	margin-left: -28px;
+	color: #007aff;
+}
+
+.sombraTexto{
+	text-shadow: 3px 2px 6px rgba(47, 22, 0, 0.2);
+}
+
+	  
+.fa-hidden:before{
+	font-family: 'FontAwesome';
+	content: "\f00d";
+	color:transparent;
+}
+
+.text-ellipsis{
+	white-space: nowrap!important;
+	overflow: hidden!important;
+	text-overflow: ellipsis!important;
+ }
+ 
+ .tablePDF {
+ 	font-size:9pt;
+ 	border-spacing: 2px !important;
+ 	width: 100%;
+ 	line-height: 13px
+ }
+ 
+ .tablePDF tr {
+ 	border: 1px solid #333333;
+ 	margin-bottom:5px;
+ }
+ 
+ .tablePDF td {
+ 	padding: 3px 6px;
+ }
+ 
+ .tablePDF .noSpacing{
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ }
+ 
+ .noSpacingBorder {
+ 	padding-left: 0px;
+ 	padding-right: 5px;
+ }
+ 
+ .tablePDF .blockTextPDF{
+ 	background-color: #ffffff;
+ 	color: #000000;
+ }
+ 
+ /* PDF Consultas */
+ 
+ .tablePDF .spacing-0{
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ }
+ 
+ .tablePDF .spacing-5{
+ 	padding: 5px 5px;
+ }
+ 
+ .tablePDF .spacing-left{
+ 	padding-left: 7px !important;
+ }
+ 
+ .tablePDF .col-min-1, .col-min-2, .col-min-3, .col-min-5, col-min-7, .col-min-9, .col-min-11{
+  	float: left;
+  	position: relative;
+    min-height: 1px;
+ }
+ 
+ .tablePDF .col-min-1{
+ 	width: 4.16%;
+ }
+
+ .tablePDF .col-min-2{
+ 	width: 12.3%;
+ } 
+  .tablePDF .col-min-3{
+ 	width: 20%;
+ }
+ 
+  .tablePDF .col-min-5{
+ 	width: 36.5%;
+ }
+ 
+ /* PDF Evolutions Notes */
+ 
+ .inPatientFontLargeBoxPDF {
+ 	font-size: 12px !important;
+ }
+ 
+ .inPatientBoxLargeBoxPDF {
+ 	width: 225px !important;
+ 	height: 105px !important;
+ 	border-bottom: 5px;
+ 	border-top: 5px;
+ 	padding: 5px;
+ }
+ 
+ .reportDataInpatientContentPDF {
+ 	width: 98%;
+ 	font-size: 11px !important;
+ 	
+ }
+ 
+ .inPatientBox-panelPDF{
+
+ 	display:inline-block;
+ 	float:left;
+ 	margin: 0.3em;
+	padding: 0.2em;
+ 	border: 1px solid #bbbbbb !important;	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+ }
+ 
+ .contentItemReportInpatientPDF{
+ 	padding: 0px 1px 0px 1px;
+ }
+ 
+ 
+ /*a.fancybox-close {
+    right: -36px;
+}*/
+
+/*************************** Responsive screen, tablet, phone  **********************************/
+
+/**** Bootstrap lg  ****/
+@media ( min-width : 1200px) {
+	.hidden-lg {
+		display: none !important;
+	}
+	.scrollable-clinical-record {
+		/* height: 100%; */
+	}
+	/*.scrollable-menu-dates {
+		max-height: 25.2em;
+	}*/
+	
+	
+}
+
+/**** Bootstrap md  ****/
+@media ( min-width : 992px) and (max-width: 1199px) {
+	.hidden-md {
+		display: none !important;
+	}
+	.divTabClinicalRecord {
+		width: 9.95%;
+	}
+	
+	.paddingDoseText{
+		padding-left: 7px;
+	}
+
+	.scrollable-clinical-record {
+		/* height: 100%;*/
+	}
+	.prescriptions {
+		margin-left: 3em;
+	}
+	/*.scrollable-menu-dates {
+		max-height: 25.2em;
+	}*/
+	
+	.divActionsResponsive {
+		float: right;
+	}
+	
+	.fixedTable-header {
+	  background-color: white;
+	}
+	
+	.fixedTable {
+	    padding-top: 1px;
+	}
+	
+	/*CLINICAL RECORD*/
+	.divPatientClinicalRecord{font-size: 1em;}
+	.divInfoPatientClinicalRecord{font-size: 0.8em;}
+	
+	/* TABLE INPATIENT VIEW */
+	.inpatientTableAction	{ width: 6% !important; }
+	.inpatientTableRoom		{ width: 8% !important; }
+	.inpatientTableName		{ width: 21% !important; }
+	.inpatientTableAge		{ width: 6% !important; }
+	.inpatientTableRecord	{ width: 7% !important; }
+	.inpatientTableDate		{ width: 13% !important; }
+	.inpatientTableDoctor	{ width: 18% !important; }
+	.inpatientTableDoctorNZoom	{ width: 25% !important; }	
+	.inpatientTableReason	{ width: 21% !important; }
+	/* END TABLE INPATIENT VIEW */
+	
+	/* TABLE OUTPATIENT VIEW */
+	.oupatientViewTableAction { width: 5%; }
+	.oupatientViewTableHour	{ width: 5%; }
+	.oupatientViewTablePatient { width: 15%; }
+	.oupatientViewTableGender { width: 4%; }
+	.oupatientViewTableRecordId { width: 8%; }
+	.oupatientViewTableType	{ width: 13%; }
+	.oupatientViewTablePayor { width: 10%; }
+	.oupatientViewTableObservation{	width: 14%; }
+	.oupatientViewTableSendBy { width: 10%; }
+	.oupatientViewTableStatus { width: 16%; }
+	/* END TABLE OUTPATIENT VIEW */
+	
+	
+	/**  Emergency table columns**/
+	.emergencyTableAction		{ width: 7%; }
+	.emergencyTableTriage		{ width: 8%; }
+	.emergencyTableHour			{ width: 7%; }
+	.emergencyTableName			{ width: 16%;}
+	.emergencyTableAge			{ width: 8%;}
+	.emergencyTableRecord		{ width: 9%;}
+	.emergencyTableAlerts		{ width: 10%;}
+	.emergencyTableDoctor		{ width: 15%;}
+	.emergencyTableDoctorEnf	{ width: 15%;}
+	.emergencyTableReason		{ width: 20%;}
+	.emergencyTableReasonEnf	{ width: 20%;}
+	/** END-- Emergency table columns**/
+	
+		/** Outpatient Table Columns **/
+		.tableListOutpatientSmall{
+			width: 10%;
+		}
+		.tableListOutpatientMiddle{
+			width: 10%;
+		}
+		.tableListOutpatientLarge{
+			width: 15%;
+		}
+		
+		.tableListPatientColum{
+			width: 15%;
+		}
+		/**End Outpatient Table Columns **/
+		
+		/** Study Table Columns **/
+		.studyTableAction	{ width: 6%; }
+		.studyTablePatient	{ width: 22%; }
+		.studyTableGender	{ width: 8%; }
+		.studyTableAge		{ width: 6%; }
+		.studyTableRecord	{ width: 7%; }
+		.studyTableDateStudy{ width: 13%; }
+		.studyTableReason 	{ width: 20%; }
+		.studyTableStatus	{ width: 18%; }
+		/**End Study Table Columns **/
+		
+		/** SURGERY **/
+		.divContentSurgeryScheduledy{
+			top:11em;
+		}
+
+		.surgeryTableAction			{ width: 7%;}
+		.surgeryTableHour			{ width: 7%;}
+		.surgeryTableStatus			{ width: 9%;}
+		.surgeryTablePatient		{ width: 14%;}
+		.surgeryTableDoctor			{ width: 11%;}
+		.surgeryTableMedProcedure	{ width: 16%;}		
+		.surgeryTableSurgeryProcedure{width: 16%;}
+		.surgeryTableRemark			{ width: 15%;}
+		
+		.surgeryTableAlerts			{ width: 7%;}
+		.surgeryTableNeeds			{ width: 7%;}
+		.surgeryTableRoom			{ width: 7%;}
+		
+		.tableContentSurgeryScheduledPatientName {	width: 14%;}
+		.tableContentSurgeryScheduledSurgeryProcedure{	width: 19%;}
+		.tableContentSurgeryScheduledRoomType {width: 7%;}
+		
+		.divContentSurgeryScheduledy {
+			top:9.7em;
+		}
+		
+		/** END SURGERY **/
+		
+		/** PHYSIOTHERAPY **/
+		/** columns physio table (MD) **/
+		.tablePhysiotherapyHour			{ width: 5%; }
+		.tablePhysiotherapyPatient		{ width: 10%;}
+		.tablePhysiotherapyRecord		{ display:none; }
+		.tablePhysiotherapyPayor		{ display:none;}
+		.tablePhysiotherapyRemark		{ width: 20%;}
+		.tablePhysiotherapyTreatments	{ width: 15%;}
+		.tablePhysiotherapyProccess		{ width: 15%;}
+		.tablePhysiotherapyClinician	{ width: 15%;}
+		.tablePhysiotherapyStatus		{ width: 15%;}
+		.tablePhysiotherapyAction		{ width: 5%; }
+		
+
+		.tableCalendarPhysioAction		{ width: 10%;}
+		.tableCalendarPhysioDate		{ width: 20%;}
+		.tableCalendarPhysioRemark		{ width: 20%;}
+		.tableCalendarPhysioTreatment	{ width: 20%;}
+		.tableCalendarPhysioStatus		{ display:none}
+		.tableCalendarPhysioPayor		{ width: 15%;}
+		.tableCalendarPhysioProfesional	{ width: 15%;}
+		/** END PHYSIOTHERAPY **/
+
+}
+
+/**** Bootstrap sm  ****/
+@media ( min-width : 768px) and (max-width: 991px) {
+	.hidden-sm {
+		display: none !important;
+	}
+	.sidebar-left, .sidebar-right {
+		width: 50px;
+	}
+	
+	.sidebar-left-in .app {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.divTabClinicalRecord {
+		width: 14%;
+	}
+	
+	.iconBtnActionsList {
+		padding-top: 0.15em;
+	}
+	
+	.colProtocolAction{
+		width: 10%;
+	}
+	
+	.colProtocolName{
+		width: 25%;
+	}
+	
+	.colProtocolInitDatetime{
+		width: 15%;
+	}
+	
+	.colProtocolAutorRequest{
+		width: 20%;
+	}
+	
+	.colProtocolDepartmentRequester{
+		width: 20%;
+	}
+	
+	.colProtocolStatus{
+		width: 10%;
+	}
+	
+	.paddingDoseText{
+		padding-left: 5px;
+	}
+	
+	.fixedTable {
+	    padding-top: 1px;
+	}
+	
+	.fixedTable-header {
+	  background-color: white;
+	}
+	
+	/*CLINICAL RECORD*/
+	.divPatientClinicalRecord{font-size: 1em;}
+	.divInfoPatientClinicalRecord{font-size: 0.8em;}
+	
+	
+	.inpatientTableAction	{ width: 8% !important; }	
+	.inpatientTableRoom		{ width: 11% !important; }
+	.inpatientTableName		{ width: 22% !important; }
+	.inpatientTableDate		{ width: 12% !important; }
+	.inpatientTableDoctor	{ width: 23% !important; }
+	.inpatientTableDoctorNZoom { width: 23% !important; }	
+	.inpatientTableReason	{ width: 24% !important; }
+
+	.marginTopMedication{
+		margin-top: 2em !important;
+	}
+	
+	.rowOutsideCatalogue {
+		margin-top: 2em;
+	}
+	
+	.selectDrugs{
+		height: 12em !important;
+	}
+	
+	.divReportsDocumentsView {
+		height: 92%;
+	}
+
+	.colListHistoryView {
+		margin-left: 0.5em;
+	}
+	
+	.colContentHistoryView {
+		/* height: 92%; */
+	}
+
+	.antecedentBox {
+		font-size: 0.9em;
+	}
+	.inputsOverlayAntecedent {
+		transform: scale(0.8);
+	}
+	.scrollable-clinical-record {
+		/* height: 92%; */
+	}
+	.textElementBoxConfig {
+		padding-bottom: 1em;
+	}
+	.prescriptions {
+		margin-left: 2.5em;
+	}
+	.spanIconBoxEmergency {
+		padding: 0;
+		float: left;
+		text-align: initial;
+	}
+	.divClinicalRecordContent {
+		top: 7em;
+	}
+	
+	.tabsClinicalRecord {
+		display:none;
+	}
+	
+	.titleSerum{
+		text-align: center;
+	}
+	
+	.divActionsResponsive {
+		float: left;
+		padding-left:5em;
+	}
+	
+	.spaceRowAddMedication {
+		padding-top: 0em;
+	}
+	
+	.rowOverlayMedication {
+		/*margin-top: 0em;*/
+	}
+	
+	.btnSearchSerumMed {
+    	margin: 1.5em;
+	}
+	
+	/**  Emergency table columns**/
+	.emergencyTableAction		{ width: 7%; }
+	.emergencyTableTriage		{ width: 8%; }
+	.emergencyTableHour			{ width: 7%; }
+	.emergencyTableName			{ width: 16%;}
+	.emergencyTableAge			{ width: 8%;}
+	.emergencyTableRecord		{ width: 9%;}
+	.emergencyTableAlerts		{ width: 10%;}
+	.emergencyTableDoctor		{ width: 15%;}
+	.emergencyTableDoctorEnf	{ width: 15%;}
+	.emergencyTableReason		{ width: 20%;}
+	.emergencyTableReasonEnf	{ width: 20%;}
+	/** END-- Emergency table columns**/
+	
+		/** INPATIENT Columns **/
+		.colExamActionRequest	{ width: 6%; }
+		.colExamDateRequest		{ width: 9%; }
+		.colExamViewRequest		{ width: 12%; }
+		.colExamSearchRequest	{ width: 30%; }
+		/** END INPATIENT Columns **/
+	
+		/** OUTPATIENT Columns **/
+		.oupatientViewTableAction	{ width: 7%; }
+		.oupatientViewTableHour		{ width: 7%; }
+		.oupatientViewTablePatient	{ width: 17%; }
+		.oupatientViewTableRecordId	{ width: 10%; }
+		.oupatientViewTableType		{ width: 16%; }
+		.oupatientViewTablePayor	{ width: 15%; }
+		.oupatientViewTableObservation{	width: 18%; }
+		.oupatientViewTableSendBy	{ width: 10%; }
+		/** END OUTPATIENT Columns **/
+		.tableListOutpatientSmall{
+			width: 10%;
+		}
+		.tableListOutpatientMiddle{
+			width: 10%;
+		}
+		.tableListOutpatientLarge{
+			width: 15%;
+		}
+		.tableListPatientColum{
+			width: 15%;
+		}
+		/** Study Table Columns **/
+		.studyTableAction	{ width: 8%; }
+		.studyTablePatient	{ width: 25%; }
+		.studyTableRecord	{ width: 11%; }
+		.studyTableDateStudy{ width: 17%; }
+		.studyTableReason 	{ width: 23%; }
+		.studyTableStatus	{ width: 16%; }
+		/**End Study Table Columns **/
+		
+		/** Surgery View **/
+		.divContentSurgery{
+			top:13.8em;
+		}
+		
+		.surgeryTableAction			{ width: 8%; }
+		.surgeryTableHour			{ width: 8%; }
+		.surgeryTableStatus			{ width: 12%; }
+		.surgeryTablePatient		{ width: 17%; }
+		.surgeryTableDoctor			{ width: 16%; }
+		.surgeryTableMedProcedure	{ width: 19%; }		
+		.surgeryTableSurgeryProcedure{width: 19%; }		
+		.surgeryTableRemark			{ width: 20%; }
+
+		.divContentSurgeryScheduledy{
+			top:11em;
+		}
+
+		.tableContentSurgeryScheduledLongTime	{	width: 10%;}
+		.tableContentSurgeryScheduledPatientName{	width: 19%;}
+		.tableContentSurgeryScheduledRecordId	{	width: 10%;}
+		.tableContentSurgeryScheduledPayor		{	width: 15%;}
+		.tableContentSurgeryScheduledSurgeryProcedure{	width: 23%;}
+		.tableContentSurgeryScheduledRoomType	{	width: 8%;}
+		.tableContentSurgeryScheduledDoctor		{	width: 15%;}
+		
+		.divContentSurgeryScheduledy {
+			top:9.7em;
+		}
+		/** End Surgery View **/
+		
+		/** CONTENT DIAGNOSTIC TESTS **/
+		/* List View */
+		.dTestsViewTableAction	{ width: 10%; }
+		.dTestsViewTableHour	{ width: 10%; }
+		.dTestsViewTablePatient	{ width: 22%; }
+		.dTestsViewTableStudy	{ width: 13%; }
+		.dTestsViewTableRemark	{ width: 23%; }
+		/*
+		.dTestsViewTableReportDate {}	
+		.dTestsViewTableLot	{}
+		.dTestsViewTablePayor {}	
+		.dTestsViewTableRecordId {}
+		*/	
+		.dTestsViewTableRoom	{ width: 10%; }
+		.dTestsViewTableStatus	{ width: 12%; }
+		
+		/* List Pending View */
+		.dTestsPendingTableDate		{ width: 10%; }
+		.dTestsPendingTablePatient	{ width: 30%; }
+		.dTestsPendingTableRecordId	{ width: 10%; }
+		/*.dTestsPendingTableApplied {}*/	
+		.dTestsPendingTableRemark	{ width: 30%; }
+		.dTestsPendingTableRoom		{ width: 10%; }
+		.dTestsPendingTableStatus	{ width: 10%; }
+		
+		/** END CONTENT DIAGNOSTIC TESTS **/
+		
+		/** PHYSIOTHERAPY **/
+		/** columns physio table (SM) **/
+		.tablePhysiotherapyHour			{ width: 10%; }
+		.tablePhysiotherapyPatient		{ width: 15%;}
+		.tablePhysiotherapyRecord		{ display:none;}
+		.tablePhysiotherapyPayor		{ display:none;}
+		.tablePhysiotherapyRemark		{ display:none;}
+		.tablePhysiotherapyTreatments	{ width: 15%;}
+		.tablePhysiotherapyProccess		{ width: 20%;}
+		.tablePhysiotherapyClinician	{ width: 15%;}
+		.tablePhysiotherapyStatus		{ width: 15%;}
+		.tablePhysiotherapyAction		{ width: 10%; }
+		
+		.tableCalendarPhysioAction		{ width: 10%;}
+		.tableCalendarPhysioDate		{ width: 20%;}
+		.tableCalendarPhysioRemark		{ width: 20%;}
+		.tableCalendarPhysioTreatment	{ width: 20%;}
+		.tableCalendarPhysioStatus		{ display:none}
+		.tableCalendarPhysioPayor		{ width: 15%;}
+		.tableCalendarPhysioProfesional	{ width: 15%;}
+		/** END PHYSIOTHERAPY **/
+}
+
+/**** Bootstrap xs  ****/
+@media ( max-width : 767px) {
+	.hidden-xs {
+		display: none !important;
+	}
+	.col-xs-10 {
+		width: 83.33333333% !important;
+	}
+	.sidebar-left, .sidebar-right {
+		width: 50px;
+	}
+	
+	.tittleAddMedication {
+		padding-top: 0em;
+	}
+	
+	
+	.iconBtnActionsList {
+		padding-top: 0.15em;
+	}
+	
+	.divHeaderStudyIcons {
+	    height: 5.9em;
+	    background-color: #D2D7D3;
+	    padding-top: 0.2em;
+	    text-align: center;
+	}
+	
+	/*CLINICAL RECORD*/
+	.divPatientClinicalRecord{font-size: 0.1em;}
+	.divInfoPatientClinicalRecord{font-size: 0.8em;}
+	
+	.checkboxPreviousIllnesses{
+		width: 15%;
+	}
+	
+	.labelPreviousIllnesses{
+		width: 35%;
+		padding-top: 0.5em;
+	}
+	
+	.inputTextPreviousIllnesses{
+		width: 50%;
+	}
+	
+	.colProtocolAction{
+		width: 10%;
+	}
+	
+	.colProtocolName{
+		width: 25%;
+	}
+	
+	.colProtocolInitDatetime{
+		width: 15%;
+	}
+	
+	.colProtocolAutorRequest{
+		width: 25%;
+	}
+	
+	.colProtocolDepartmentRequester{
+		width: 25%;
+	}
+	
+	.divContentStudy {
+	    top: 10em;
+	    height: auto;
+	    margin-bottom: 3.5em;
+	}
+	
+	.divContentProtocolView {
+		top: 0em;
+	}
+
+	.menu-group-filter{
+		display:inline-block;
+		float:right;
+		padding-top:0.8em;
+		margin: 0.1em 0.25em 0em 0.25em;	
+	}
+	
+	/*a.fancybox-close {
+	    bottom: 164px;
+	    right: 0px !important;
+	    left: 360px;
+	    top: initial !important;
+	}*/
+	
+	.divContentInpatientLevel-0, .divContentInpatientLevel-1,  .divContentInpatientLevel-2 {
+    	top: 9.8em;
+	}
+	
+	.inPatientViewContainer {
+		top:9.8em;
+	}
+	
+	.divContentOutpatient {
+	    top: 9.9em;
+	    height: auto;
+	    bottom: 3.5em;
+	}
+	
+	.divOutpatient {
+		height: 5.8em;
+	}
+	
+	.divServiceName {
+		font-size: 0.6em;
+	}
+
+	.spanSignature {
+	    font-size: 0.9em;
+	}
+	
+	.navbarMenu {
+	    font-size: 0.9em;
+	}
+	
+	.viewName {
+	    font-size: 0.9em;
+	}
+	/** INPATIENT Columns **/
+	.inpatientTableAction	{ width: 9% !important; font-size: 14px;}
+	.inpatientTableRoom		{ width: 18% !important; font-size: 12px;}
+	.inpatientTableName		{ width: 25% !important; font-size: 12px;}
+	.inpatientTableReason	{ width: 22% !important; font-size: 12px;}
+	.inpatientTableDoctor	{ width: 26% !important; font-size: 12px;}
+	.inpatientTableDoctorNZoom { width: 26% !important; font-size: 12px;}
+			
+	/** OUTPATIENT Columns **/
+	.scrollableSurgery {
+		top:9.8em;
+	}
+	
+	.oupatientViewTableAction	{ width: 15%; font-size: 14px; }
+	.oupatientViewTableHour		{ width: 15%; font-size: 12px; }
+	.oupatientViewTablePatient	{ width: 35%; font-size: 12px; }
+	.oupatientViewTableObservation{	width: 35%; font-size: 12px; }
+	
+	/** TESTDIAGNOSTIC **/
+	.colExamActionRequest	{ width: 8%; font-size: 14px;}
+	.colExamDateRequest		{ width: 17%; font-size: 12px;}
+	.colExamTestRequest		{ width: 38%; font-size: 12px;}
+	.colExamDateResultRequest{ width: 17%; font-size: 12px;}
+	.colExamResultRequest	{ width: 20%; font-size: 12px;}
+	.colExamSearchRequest	{ width: 100%; }
+	
+	.divContentDiagnosticTests {
+	    top: 5.3em;
+	    height: auto;
+	}
+	
+	/** TESTDIAGNOSTIC **/
+	
+	.paadingTopTimeMed{
+		padding-top: 1em;
+	}
+	
+	.btnSearchSerumMed {
+    	margin: 1.5em;
+	}
+	
+	.spaceRowAddMedication {
+		padding-top: 0em;
+	}
+	
+	.rowOverlayMedication {
+		margin-top: 0em;
+	}
+	
+	.fixedTable {
+	    padding-top: 1px;
+	}
+	
+	.selectDrugs{
+		height: 12em !important;
+		margin-top: 2em;
+	}
+	
+	.rowMedicationAdd{
+		margin-top: 2em;
+	}
+	
+	.analProfile{
+		margin-top:0;
+	}
+	
+	.marginTopMedication{
+		margin-top: 2em;
+	}
+	
+	.selectCatalogueStarts{
+		width: 66.66666667%;
+	}
+	
+	.rowOutsideCatalogue {
+		margin-top: 2em;
+	}
+	
+	.rowCatalogueStart{
+		margin-top: 1.5em;
+	}
+	
+	.rowCatalogueSearch{
+		margin-top: 0.8em;
+	}
+	
+	.sidebar-left-in .app {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+	}
+	.settingMenu {
+		left: 15%;
+		right: 16%;
+	}
+	
+	.titleSerum{
+		text-align: center;
+	}
+	
+	.legendOverlayCatalogue{
+		width: 40%;
+	}
+	.configTittle {
+		text-align: center;
+	}
+	
+	.fieldsetAnalytical {
+		border: 1px solid gray;
+		padding: 1.5em;
+		margin-bottom: 2em;
+	}
+	
+	.divReportsDocumentsView {
+		height: 75%;
+	}
+
+	.colContentHistoryView {
+		/* height: 75%; */
+	}
+	.alignExamRequest {
+		text-align: center;
+	}
+	.paddingBtnExamRequest {
+		padding-bottom: 1em;
+	}
+	.textSpanOverlaySearchPatient {
+		padding-top: 0em;
+	}
+	.divTabClinicalRecord {
+		width: 16%;
+	}
+	.positionSearchPatient {
+		position: absolute;
+	}
+	.divPatientClinicalRecord {
+		padding: 0;
+	}
+	.divInfoPatientClinicalRecord {
+		padding-right: 0;
+	}
+	.groupIconPatientBanner {
+		padding-left: 0;
+	}
+	.divIconReturnClinicalRecord {
+		width: 2em;
+		padding-top: 0.4em;
+		margin-right: 0.5em;
+	}
+	.iReturnOutpatient {
+		font-size: 1.5em;
+	}
+	.divPatientData {
+		width: 76% !important;
+	}
+	.antecedentBox {
+		font-size: 0.8em;
+	}
+	.tabGeneralView {
+		margin-left: 0.5em;
+	}
+	.tabTextGeneralView {
+		font-size: 0.6em;
+		margin-left: 0.5em;
+	}
+	.tabHistoryView {
+		margin-left: 0.5em;
+	}
+	.tabTextHistoryView {
+		font-size: 0.6em;
+		margin-left: 0.5em;
+		padding-left: 1em;
+	}
+	.tabAntecedents {
+		margin-left: 0.5em;
+	}
+	.tabTextAntecedents {
+		margin-left: 0.5em;
+		font-size: 0.6em;
+	}
+	.tabDiagnostic {
+		margin-left: 0.5em;
+	}
+	.tabTextDiagnostic {
+		margin-left: 0.5em;
+		font-size: 0.6em;
+	}
+	.tabDocuments {
+		margin-left: 0.5em;
+	}
+	.tabTextDocuments {
+		margin-left: 0.5em;
+		font-size: 0.6em;
+	}
+	.tabPatientData {
+		margin-left: 0.5em;
+	}
+	.tabTextPatientData {
+		margin-left: 0.5em;
+		font-size: 0.6em;
+	}
+	.divTabActiveClinicalRecord {
+		border-bottom: 0;
+	}
+	.tabClinicalRecord {
+		width: 1.5em;
+		text-align: center;
+		height: 1.5em;
+		line-height: 1.4em;
+	}
+	.iIconTabClinicalRecord {
+		font-size: 0.8em;
+	}
+	.tabTextClinicalRecord {
+		margin-top: 0.4em;
+	}
+	.divClinicalRecordContent {
+		top: 7em;
+	}
+	.inputFilterAppointments {
+		margin-bottom: 10%;
+		margin-top: 10%;
+	}
+	.iconsFilterAppointmentsRow1 {
+		margin-bottom: 10%;
+		margin-top: 6%;
+	}
+	.divAntecedentsView {
+		height: 88%;
+	}
+	.btnsExamRequest {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.rowErrorReportsAndDocuments {
+		margin: 1.5em;
+	}
+
+	.rowButtonsRepAndDocs {
+		padding: 0em 1em 0.5em 1em;
+	}
+	.boxReportDocument {
+		padding: 0em 1.1em 0em 1.1em;
+	}
+	.boxClinicalRecord {
+		font-size: 0.9em;
+	}
+	.panelTitleClinicalRecord {
+		font-size: 1.1em;
+	}
+	.reportDocumentTittle {
+		font-size: 1em;
+	}
+	.reportDocumentTittle {
+		font-size: 0.9em;
+	}
+	.typeDepartmentReport {
+		font-size: 0.9em;
+	}
+	.btnDocumentReport {
+		font-size: 0.9em;
+	}
+	.patientDemographicName {
+		font-size: 0.8em;
+	}
+	.rowTableDemographicData {
+		font-size: 0.9em;
+	}
+	.listBanner {
+		font-size: 0.8em;
+	}
+	.inputsOverlayAntecedent {
+		transform: scale(0.9em);
+		width: 2em;
+	}
+	.groupCheckAntecedent {
+		padding: 0;
+	}
+	.tittlesOverlayAntecedents {
+		font-size: 0.9em;
+	}
+	.spanTextOverlayAntecedent {
+		padding: 1em 0em 0em 0em;
+	}
+	.scrollable-clinical-record {
+		/* height: 75%; */
+	}
+	.textElementBoxConfig {
+		padding-bottom: 1em;
+	}
+	.textElementBoxConfig {
+		padding-bottom: 1em;
+	}
+	.emergencyBox {
+		padding: 1em 2em 1em 2em;
+	}
+	.iconPatientGender {
+		padding-right: 0.5em;
+		color: black;
+		font-size: 1.5em;
+		padding-top: 0.4em;
+		float: left;
+		padding-left: 0.2em;
+	}
+	.legendReportEmer {
+		width: 50%;
+	}
+	
+	.radioBtnDiagnostic {
+		width: 33.33333333%;
+	}
+	
+	.tabsClinicalRecord {
+		display:none;
+	}
+	
+	.divAntecedentsView {
+		height: 100%;
+	}
+	.surgeryhedline{
+		display:none;
+	}
+	.surgeryhedlinedate{
+		font-weight: bold;
+	}
+	
+	/** SURGERY VIEW **/
+	.divSurgery {
+	    height: 6.1em;
+	}
+	.divContentSurgery {
+	    top: 9.8em;
+	}
+	.surgeryTableAction		{ width: 14%; font-size: 14px; }
+	.surgeryTableHour		{ width: 14%; font-size: 12px;}
+	.surgeryTablePatient	{ width: 24%; font-size: 12px;}
+	.surgeryTableDoctor		{ width: 20%; font-size: 12px;}
+	.surgeryTableSurgeryProcedure{ width: 28%; font-size: 12px;}
+	
+	.tableContentSurgeryScheduledPatientName	{ width: 30%; font-size: 12px; }
+	.tableContentSurgeryScheduledSurgeryProcedure{ width: 38%; font-size: 12px; }
+	.tableContentSurgeryScheduledRoomType		{ width: 12%; font-size: 12px; }
+	.tableContentSurgeryScheduledDoctor			{ width: 20%; font-size: 12px; }
+	
+	/** END SURGERY VIEW **/
+	
+	/**  Emergency table columns**/
+	.divEmergency {
+	    height: 5.8em;
+	}
+	.divContentEmergency{
+		top:9.8em;
+	}
+	.emergencyTableAction		{ width: 11%; font-size: 14px; }
+	.emergencyTableHour			{ width: 13%; font-size: 12px; }
+	.emergencyTableName			{ width: 26%; font-size: 12px; }
+	.emergencyTableDoctor		{ width: 19%; font-size: 12px; }
+	.emergencyTableDoctorEnf	{ width: 19%; font-size: 12px; }
+	.emergencyTableReason		{ width: 31%; font-size: 12px; }
+	.emergencyTableReasonEnf	{ width: 31%; font-size: 12px; }
+	/** END-- Emergency table columns**/
+	
+		/** Outpatient Table Columns **/
+		.tableListOutpatientSmall { width: 20%; }
+		.tableListOutpatientMiddle{	width: 20%;	}
+		.tableListOutpatientLarge { width: 20%; }
+		.tableListPatientColum	  { width: 40%; }
+		/** End Outpatient Table Columns **/
+		
+		/** Study Table Columns **/
+		.studyLabelContainer{
+			height: auto;
+			top:10em;
+			bottom:3.5em;
+		}
+		.studyTableAction	{ width: 10%; font-size: 14px; }
+		.studyTablePatient	{ width: 28%; font-size: 12px; }
+		.studyTableRecord	{ width: 17%; font-size: 12px; }
+		.studyTableDateStudy{ width: 20%; font-size: 12px; }
+		.studyTableReason	{ width: 25%; font-size: 12px; }
+		/**End Study Table Columns **/
+		
+		
+		/** CONTENT DIAGNOSTIC TEST **/
+		/* List View */
+		.dTestsViewTableAction	{ width: 10%; font-size: 12px;}
+		.dTestsViewTableHour	{ width: 12%; font-size: 11px;}
+		.dTestsViewTablePatient	{ width: 25%; font-size: 10px;}
+		.dTestsViewTableStudy	{ width: 23%; font-size: 10px;}
+		.dTestsViewTableRemark	{ width: 30%; font-size: 11px;}
+		
+		/* List Pending View */
+		.dTestsPendingTableDate		{ width: 20%; font-size: 12px;}
+		.dTestsPendingTablePatient	{ width: 34%; font-size: 11px;}
+		.dTestsPendingTableRemark	{ width: 34%; font-size: 12px;}
+		.dTestsPendingTableRoom		{ width: 12%; font-size: 12px;}
+		/** END CONTENT DIAGNOSTIC TEST **/
+		
+		
+		/** PHYSIOTHERAPY **/
+		.divContentPhysiotherapy { top: 9.8em; }
+		.divContentPhysiotherapyTable { top: 9.8em; }
+		.divContentPhysiotherapyLabel { top: 9.8em; }
+		
+		/** columns physio table (XS) **/
+		.tablePhysiotherapyHour			{ width: 15%; }
+		.tablePhysiotherapyPatient		{ width: 35%;}
+		.tablePhysiotherapyRecord		{ display:none;}
+		.tablePhysiotherapyPayor		{ display:none;}
+		.tablePhysiotherapyRemark		{ display:none;}
+		.tablePhysiotherapyTreatments	{ width: 35%;}
+		.tablePhysiotherapyProccess		{ display:none;}
+		.tablePhysiotherapyClinician	{ display:none;}
+		.tablePhysiotherapyStatus		{ display:none;}
+		.tablePhysiotherapyAction		{ width: 15%; }
+		
+		.tableCalendarPhysioAction		{ width: 10%;}
+		.tableCalendarPhysioDate		{ width: 20%;}
+		.tableCalendarPhysioRemark		{ width: 20%;}
+		.tableCalendarPhysioTreatment	{ width: 20%;}
+		.tableCalendarPhysioStatus		{ display:none}
+		.tableCalendarPhysioPayor		{ width: 15%;}
+		.tableCalendarPhysioProfesional	{ width: 15%;}
+		/** END PHYSIOTHERAPY **/
+		
+		.divDateSearch {
+			font-size: 12px;
+		}
+
+}
+
+/**** Extra small  ****/
+@media ( max-width : 480px) {
+	.hidden-superXs {
+		display: none;
+	}
+	.divAntecedentsView {
+		height: 100%;
+	}
+	.divIconReturnClinicalRecord {
+		margin-right: 0.2em;
+	}
+	.iconPatientBanner {
+		padding-left: 0em;
+	}
+	.divPatientData {
+		width: 73% !important;
+	}
+	.divElementPatientData {
+		width: 80%;
+	}
+	.divTabClinicalRecord {
+		width: 14%;
+	}
+	
+	.divClinicalRecordContent {
+		top: 7em;
+	}
+	.tabsClinicalRecord {
+		display:none;
+	}
+	.viewName {
+		font-size: 0.9em;
+	}
+	.divDateSearch {
+		font-size: 11px;
+	}
+	.prescriptions {
+		margin-left: 0em;
+	}
+	.legendReportEmer {
+		width: 75%;
+	}
+	.emergencyBoxPhone{
+		text-align: center;
+	}
+	
+}
+
+/**** Extra Extra small  ****/
+@media ( max-width : 420px) {
+	.hidden-extraXs {
+		display: none;
+	}
+	.divElementPatientData {
+		width: 85%;
+		min-width: 60%;
+	}
+	.divInfoPatientClinicalRecord {
+		padding: 0;
+		font-size: 0.6em;
+	}
+	.fullNameBanner {
+		font-size: 0.9em;
+	}
+	.divPatientData {
+		width: 65% !important;
+	}
+	.btnResSelectInpat{
+		width: 3em;
+	}
+
+}
